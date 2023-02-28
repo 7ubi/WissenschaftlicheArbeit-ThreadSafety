@@ -17,12 +17,12 @@
 \contentsline {section}{\numberline {4.1}{Dynamische Race Detection durch die Happens Before Beziehung}}{6}{section.4.1}%
 \contentsline {section}{\numberline {4.2}{Dynamische Race Detection durch Locksets}}{9}{section.4.2}%
 \contentsline {section}{\numberline {4.3}{Statische Race Detection}}{11}{section.4.3}%
-\contentsline {chapter}{\numberline {5}{Lösen von Thread Safety Problemen}}{12}{chapter.5}%
-\contentsline {section}{\numberline {5.1}{Synchronized}}{12}{section.5.1}%
-\contentsline {section}{\numberline {5.2}{Liveness Hazards}}{12}{section.5.2}%
-\contentsline {chapter}{\numberline {6}{Zusammenfassung}}{14}{chapter.6}%
-\contentsline {section}{\numberline {6.1}{Fazit}}{14}{section.6.1}%
-\contentsline {section}{\numberline {6.2}{Ausblick}}{14}{section.6.2}%
+\contentsline {chapter}{\numberline {5}{Lösen von Thread Safety Problemen}}{13}{chapter.5}%
+\contentsline {section}{\numberline {5.1}{Synchronized}}{13}{section.5.1}%
+\contentsline {section}{\numberline {5.2}{Liveness Hazards}}{13}{section.5.2}%
+\contentsline {chapter}{\numberline {6}{Zusammenfassung}}{15}{chapter.6}%
+\contentsline {section}{\numberline {6.1}{Fazit}}{15}{section.6.1}%
+\contentsline {section}{\numberline {6.2}{Ausblick}}{15}{section.6.2}%
 \vspace {\beforebibskip }
-\contentsline {chapter}{\numberline {}{Literatur}}{15}{section*.8}%
+\contentsline {chapter}{\numberline {}{Literatur}}{16}{section*.8}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
