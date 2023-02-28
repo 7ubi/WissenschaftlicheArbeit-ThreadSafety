@@ -1,10 +1,8 @@
-\babel@toc {american}{}\relax 
+\babel@toc {american}{}
 \vspace {-\cftbeforepartskip }
-\babel@toc {ngerman}{}\relax 
-\babel@toc {american}{}\relax 
-\babel@toc {ngerman}{}\relax 
-\babel@toc {ngerman}{}\relax 
-\babel@toc {ngerman}{}\relax 
+\babel@toc {ngerman}{}
+\babel@toc {ngerman}{}
+\babel@toc {ngerman}{}
 \contentsline {part}{\numberline {i}{Wissenschaftliche Arbeit}}{1}{part.1}%
 \contentsline {chapter}{\numberline {1}{Einleitung}}{2}{chapter.1}%
 \contentsline {section}{\numberline {1.1}{Problemstellung}}{2}{section.1.1}%
@@ -15,8 +13,8 @@
 \contentsline {section}{\numberline {3.2}{Thread Safety}}{4}{section.3.2}%
 \contentsline {chapter}{\numberline {4}{Thread Safety Probeleme überprüfen}}{6}{chapter.4}%
 \contentsline {section}{\numberline {4.1}{Dynamische Race Detection durch die Happens Before Beziehung}}{6}{section.4.1}%
-\contentsline {section}{\numberline {4.2}{Dynamische Race Detection durch Locksets}}{9}{section.4.2}%
-\contentsline {section}{\numberline {4.3}{Statische Race Detection}}{11}{section.4.3}%
+\contentsline {section}{\numberline {4.2}{Dynamische Race Detection durch Locksets}}{10}{section.4.2}%
+\contentsline {section}{\numberline {4.3}{Statische Race Detection}}{12}{section.4.3}%
 \contentsline {chapter}{\numberline {5}{Lösen von Thread Safety Problemen}}{13}{chapter.5}%
 \contentsline {section}{\numberline {5.1}{Synchronized}}{13}{section.5.1}%
 \contentsline {section}{\numberline {5.2}{Liveness Hazards}}{13}{section.5.2}%
