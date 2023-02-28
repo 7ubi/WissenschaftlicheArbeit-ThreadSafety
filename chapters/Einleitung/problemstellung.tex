@@ -1,0 +1,8 @@
+\section{Problemstellung}
+
+Threads sind überall. Auch schon die Ausführung eines einfachen Java Programms ohne Multithreading erstellt nicht nur einen Thread für das Main Programm, sondern auch ein weiterer Thread für die Garbage Collection. Auch Servelets, wie zum Beispiel Spring Boot, erstellen für jede Anfrage eines HTTP Clients einen eigenen Thread, so dass mehrere Nutzer gleichzeitig die gleiche Schnittstelle aufrufen können \cite[8]{brian}. 
+
+% Hier Zitate
+Multithreading bietet durch die Parallelisierung der Aufgaben Vorteile, beispielsweise das komplexe Anwendungen bessere Leistung haben \cite[3]{brian}. 
+
+Dieser Vorteil bringt aber auch einen großen Nachteil mit sich. Durch das parallele Aufrufen des selben Programms können mehrere Threads gleichzeitig auf die gleiche Ressource zugreifen. Wenn alle Operationen der Threads auf dieselbe Variable nur Leseoperationen sind besteht zunächst kein Problem, dies wäre zum Beispiel in Java  bei einer \texttt{final} Variable der Fall, die read only ist. Probleme entstehen dann, wenn eine der Operationen eine Schreiboperation ist. Bei schelchtem Timing kann es zum Beispiel zu dem Problem kommen, dass eine Ressource von zwei Threads gleichzeitig beschrieben wird, wodurch eine Inkonsistenz in den Daten entsteht \cite[vgl.][11-15]{brian}.      

@@ -1,0 +1,417 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nyt/global//global/global}
+  \entry{banerjee_theory_2006}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=BU}{%
+         family={Banerjee},
+         familyi={B\bibinitperiod},
+         given={Utpal},
+         giveni={U\bibinitperiod},
+      }}%
+      {{hash=BB}{%
+         family={Bliss},
+         familyi={B\bibinitperiod},
+         given={Brian},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=MZ}{%
+         family={Ma},
+         familyi={M\bibinitperiod},
+         given={Zhiqiang},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=PP}{%
+         family={Petersen},
+         familyi={P\bibinitperiod},
+         given={Paul},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \list{publisher}{1}{%
+      {ACM}%
+    }
+    \strng{namehash}{BU+1}
+    \strng{fullhash}{BUBBMZPP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{booktitle}{Proceedings of the 2006 workshop on {Parallel} and
+  distributed systems: testing and debugging}
+    \verb{doi}
+    \verb 10.1145/1147403.1147416
+    \endverb
+    \field{isbn}{978-1-59593-414-7}
+    \field{pages}{69\bibrangedash 78}
+    \field{title}{A theory of data race detection}
+    \verb{url}
+    \verb https://dl.acm.org/doi/10.1145/1147403.1147416
+    \endverb
+    \list{location}{1}{%
+      {Portland Maine USA}%
+    }
+    \field{month}{07}
+    \field{year}{2006}
+    \field{urlday}{06}
+    \field{urlmonth}{02}
+    \field{urlyear}{2023}
+  \endentry
+
+  \entry{erickson_effective_nodate}{article}{}
+    \name{author}{4}{}{%
+      {{hash=EJ}{%
+         family={Erickson},
+         familyi={E\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MM}{%
+         family={Musuvathi},
+         familyi={M\bibinitperiod},
+         given={Madanlal},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Burckhardt},
+         familyi={B\bibinitperiod},
+         given={Sebastian},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=OK}{%
+         family={Olynyk},
+         familyi={O\bibinitperiod},
+         given={Kirk},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {USENIX Association}%
+    }
+    \strng{namehash}{EJ+1}
+    \strng{fullhash}{EJMMBSOK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{booktitle}{9th USENIX Symposium on Operating Systems Design and
+  Implementation (OSDI 10)}
+    \field{title}{Effective {Data-Race} Detection for the Kernel}
+    \verb{url}
+    \verb https://www.usenix.org/conference/osdi10/effective-data-race-detectio
+    \verb n-kernel
+    \endverb
+    \list{location}{1}{%
+      {Vancouver, BC}%
+    }
+    \field{month}{10}
+    \field{year}{2010}
+  \endentry
+
+  \entry{fekete_teaching_nodate}{article}{}
+    \name{author}{1}{}{%
+      {{hash=FAD}{%
+         family={Fekete},
+         familyi={F\bibinitperiod},
+         given={Alan\bibnamedelima D},
+         giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{FAD1}
+    \strng{fullhash}{FAD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{title}{Teaching students to develop thread-safe java classes}
+    \verb{url}
+    \verb https://dl.acm.org/doi/pdf/10.1145/1597849.1384304
+    \endverb
+    \field{month}{09}
+    \field{year}{2008}
+  \endentry
+
+  \entry{brian}{book}{}
+    \name{author}{6}{}{%
+      {{hash=GB}{%
+         family={Göetz},
+         familyi={G\bibinitperiod},
+         given={Brian},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=PT}{%
+         family={Peierls},
+         familyi={P\bibinitperiod},
+         given={Tim},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Bloch},
+         familyi={B\bibinitperiod},
+         given={Joshua},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Bowbeer},
+         familyi={B\bibinitperiod},
+         given={Joseph},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=HD}{%
+         family={Holmes},
+         familyi={H\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=LD}{%
+         family={Lea},
+         familyi={L\bibinitperiod},
+         given={Doug},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GB+1}
+    \strng{fullhash}{GBPTBJBJHDLD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{isbn}{978-0-321-34960-6}
+    \field{title}{Java Concurrency In Practice}
+    \verb{url}
+    \verb https://d1wqtxts1xzle7.cloudfront.net/53777814/Java_Concurrency_In_Pr
+    \verb actice-libre.pdf
+    \endverb
+    \field{month}{05}
+    \field{year}{2006}
+  \endentry
+
+  \entry{li_efficient_2019}{inproceedings}{}
+    \name{author}{5}{}{%
+      {{hash=LG}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Guangpu},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=LS}{%
+         family={Lu},
+         familyi={L\bibinitperiod},
+         given={Shan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=MM}{%
+         family={Musuvathi},
+         familyi={M\bibinitperiod},
+         given={Madanlal},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=NS}{%
+         family={Nath},
+         familyi={N\bibinitperiod},
+         given={Suman},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=PR}{%
+         family={Padhye},
+         familyi={P\bibinitperiod},
+         given={Rohan},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \list{publisher}{1}{%
+      {ACM}%
+    }
+    \strng{namehash}{LG+1}
+    \strng{fullhash}{LGLSMMNSPR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{booktitle}{Proceedings of the 27th {ACM} {Symposium} on {Operating}
+  {Systems} {Principles}}
+    \verb{doi}
+    \verb 10.1145/3341301.3359638
+    \endverb
+    \field{isbn}{978-1-4503-6873-5}
+    \field{pages}{162\bibrangedash 180}
+    \field{shorttitle}{Efficient scalable thread-safety-violation detection}
+    \field{title}{Efficient scalable thread-safety-violation detection: finding
+  thousands of concurrency bugs during testing}
+    \verb{url}
+    \verb https://dl.acm.org/doi/10.1145/3341301.3359638
+    \endverb
+    \list{location}{1}{%
+      {Huntsville Ontario Canada}%
+    }
+    \field{month}{10}
+    \field{year}{2019}
+  \endentry
+
+  \entry{naik_effective_nodate}{article}{}
+    \name{author}{3}{}{%
+      {{hash=NM}{%
+         family={Naik},
+         familyi={N\bibinitperiod},
+         given={Mayur},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=AA}{%
+         family={Aiken},
+         familyi={A\bibinitperiod},
+         given={Alex},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=WJ}{%
+         family={Whaley},
+         familyi={W\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{NMAAWJ1}
+    \strng{fullhash}{NMAAWJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{title}{Effective {Static} {Race} {Detection} for {Java}}
+    \verb{url}
+    \verb https://dl.acm.org/doi/pdf/10.1145/1133981.1134018
+    \endverb
+    \field{month}{06}
+    \field{year}{2006}
+  \endentry
+
+  \entry{savage_eraser_nodate}{article}{}
+    \name{author}{5}{}{%
+      {{hash=SS}{%
+         family={Savage},
+         familyi={S\bibinitperiod},
+         given={Stefan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Burrows},
+         familyi={B\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=NG}{%
+         family={Nelson},
+         familyi={N\bibinitperiod},
+         given={Greg},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=SP}{%
+         family={Sobalvarro},
+         familyi={S\bibinitperiod},
+         given={Patrick},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=AT}{%
+         family={Anderson},
+         familyi={A\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{SS+1}
+    \strng{fullhash}{SSBMNGSPAT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{title}{Eraser: {A} {Dynamic} {Data} {Race} {Detector} for
+  {Multithreaded} {Programs}}
+    \verb{url}
+    \verb https://dl.acm.org/doi/pdf/10.1145/265924.265927
+    \endverb
+    \field{volume}{15}
+    \field{journaltitle}{ACM Transactions on Computer Systems}
+    \field{month}{11}
+    \field{year}{1997}
+  \endentry
+
+  \entry{relay}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=VJW}{%
+         family={Voung},
+         familyi={V\bibinitperiod},
+         given={Jan\bibnamedelima Wen},
+         giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=JR}{%
+         family={Jhala},
+         familyi={J\bibinitperiod},
+         given={Ranjit},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=LS}{%
+         family={Lerner},
+         familyi={L\bibinitperiod},
+         given={Sorin},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Association for Computing Machinery}%
+    }
+    \strng{namehash}{VJWJRLS1}
+    \strng{fullhash}{VJWJRLS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{V}
+    \field{sortinithash}{V}
+    \field{booktitle}{Proceedings of the the 6th Joint Meeting of the European
+  Software Engineering Conference and the ACM SIGSOFT Symposium on The
+  Foundations of Software Engineering}
+    \verb{doi}
+    \verb 10.1145/1287624.1287654
+    \endverb
+    \field{isbn}{9781595938114}
+    \field{pages}{205\bibrangedash 214}
+    \field{series}{ESEC-FSE '07}
+    \field{title}{RELAY: Static Race Detection on Millions of Lines of Code}
+    \verb{url}
+    \verb http://progsys.ucsd.edu/~rjhala/papers/relay.pdf
+    \endverb
+    \list{location}{1}{%
+      {Dubrovnik, Croatia}%
+    }
+    \field{year}{2007}
+    \warn{\item Can't use 'location' + 'address'}
+  \endentry
+\enddatalist
+\endinput

@@ -1,0 +1,46 @@
+\section{Liveness Hazards}
+
+Ein Problem, dass durch schlechte Synchronisation auftreten kann, sind Liveness Hazards. Diese entstehen, wenn beispielsweise Thread A darauf wartet, dass Thread B eine Ressource, aufhört zu locken, aber Thread B dies nie tut. Diese Art von Liveness Hazard nennt man livelock \cite[vgl.][5-6]{brian}.
+
+%\begin{comment}
+\begin{lstlisting}[language=Java,frame=tb,caption={Deadlock \cite{fekete_teaching_nodate}}, label={lst:deadlock}, numbers=left, stepnumber=1, captionpos=b]
+class BankAccountA {
+    private int balance; 
+    private Bank myBank; 
+
+    public synchronized void transfer(BankAccountA target, int amount) throws DifferentBankException {
+        if (myBank != target.myBank) 
+            throw new DifferentBankException(); 
+        
+        balance -= amount; 
+        synchronized(target) { 
+            target.balance += amount; 
+        } 
+    }
+}
+\end{lstlisting}
+%\end{comment}
+
+Ein weiterer Liveness Hazard ist der Deadlock \cite[vgl.][6]{brian}. Dieser entsteht, wenn verschiedene Threads sich gegenseitig blockieren und dadurch kein Thread weitere Aufgabe ausführen kann. Ein Beispiel hierfür ist \ref{lst:deadlock}. Problem hierbei ist, dass wenn das \texttt{target} gleich dem auszuführenden BankAccountA ist, das \texttt{target} nicht gelocked werden kann in Zeile 10, da es bereits durch den Funktionsaufruf gelocked ist \cite[vgl.][122]{fekete_teaching_nodate}. 
+\\
+%\begin{comment}
+\begin{lstlisting}[language=Java,frame=tb,caption={Deadlock Lösung \cite{fekete_teaching_nodate}}, label={lst:deadlockLösung}, numbers=left, stepnumber=1, captionpos=b]
+class BankAccountB { 
+    private int balance; 
+    
+    private Bank myBank; 
+
+    public void transfer(BankAccountB target, int amount) throws DifferentBankException { 
+        if (myBank != target.myBank)
+            throw new DifferentBankException(); 
+        
+        synchronized(myBank) { 
+            balance -= amount; 
+            target.balance += amount; 
+        } 
+    }
+}
+\end{lstlisting}
+%\end{comment}
+
+In \ref{lst:deadlockLösung} ist dieselbe Funktion dargestellt, mit dem Unterschied, dass diese keinen Deadlock erzeugt. Der Unterschied in der Klasse \texttt{BackAccountB} ist, dass am Anfang der Funktion nicht das Objekt gelocked wird und dadurch das vorher beschriebene Problem nicht mehr auftreten kann \cite[vgl.][122]{fekete_teaching_nodate}.
