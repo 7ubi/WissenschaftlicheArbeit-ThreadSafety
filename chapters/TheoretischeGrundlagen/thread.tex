@@ -1,5 +1,7 @@
+Dieses Kapitel beschäftigt damit, was ein Thread ist und wie daraus Multithreading entseht. Die darauf folgende Sektion beschäftigt sich damit, was Thread Safety ist und welche Probleme durch Multithreading entstehen können.
+
 \section{Threads und Multithreading}\label{sec:threads}
 
-Ein Thread in einem Programm ist eine Reihe unabhängiger Anweisungen. In Multiprozessor Systemen können diese Threads parallel ausgeführt werden. Die meisten Programme starten dabei mit einem Thread und erstellen im Laufe ihrer Ausführung weitere Threads oder beenden die von ihnen zuvor kreierte Threads. Dieses Konzept wird Multithreading genannt \cite[vgl.][70]{banerjee_theory_2006}.
+Ein Thread in einem Programm ist eine Reihe unabhängiger Befehle.  Die meisten Programme starten dabei mit einem Thread. In Multiprozessor Systemen können diese Threads parallel ausgeführt werden. Programme erstellen im Laufe ihrer Ausführung weitere Threads oder beenden die von ihnen zuvor kreierte Threads. Dieses Konzept wird Multithreading genannt \cite[vgl.][70]{banerjee_theory_2006}.
 
-Threads, die zu einem gleichen Prozess gehören, greifen zudem auf denselben Adressraum zu und haben somit die gleichen Variablen und Objekte auf dem Heap. Hier befindet sich das Problem der Thread Safety, da verschiedene Threads zur gleichen Zeit auf die gleichen Ressourcen zugreifen können, womit sich \hyperref[sec:threadSafety]{der nächste Teil} beschäftigt \cite[vgl.][2]{brian}.
+Threads, die zu einem gleichen Prozess gehören, greifen zudem auf denselben Adressraum zu und haben somit die gleichen Variablen und erzeugte Objekte, welche auf dem Heap gespeichert sind. Hier befindet sich das Problem der Thread Safety, da verschiedene Threads zur gleichen Zeit auf die gleichen Ressourcen zugreifen können \cite[vgl.][2]{brian}.
