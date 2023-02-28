@@ -4,8 +4,6 @@ In dieser Sektion wird Dynamische Race Detection durch Locksets betrachtet und a
 
 \subsection*{Eraser}
 
-\subsubsection*{Lockset Refinement}
-
 Erasers Lock Mechanismus ist, ob jeder Zugriff auf eine geteilte Variable durch ein Schloss gesichert ist. Dieser Mechanismus wird überprüft, indem Eraser alle Zugriffe auf den Speichert überwacht. Das Problem dabei ist, dass Eraser nicht weiß, welches Lock für welche Variable ist \cite[vgl.][396]{savage_eraser_nodate}. 
 
 Um dies herauszufinden, benutzt Eraser Lockset Refinement. Für jede geteilte Variable \texttt{v} hat Eraser ein Set \texttt{C(v)} an möglichen Locks für \texttt{v}. Bei jedem Zugriff auf \texttt{v} von einem Thread wird die Schnittmenge zwischen die aktuellen Locks \texttt{locks\_held} und \texttt{C(v)} gebildet und zurück in \texttt{C(v)} geschrieben. Wenn \texttt{C(v)} nun leer ist liegt ein Data Race vor. Dargestellt ist dieser Mechanismus in \ref{tab:locksetRefinment} \cite[vgl.][396-397]{savage_eraser_nodate}. 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2023.2.28)  28 FEB 2023 17:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2023.2.28)  28 FEB 2023 23:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1678,11 +1678,6 @@ Overfull \hbox (12.73912pt too wide) in paragraph at lines 29--30
 \openout2 = `frontbackmatter/AbstractDE.aux'.
 
  (./frontbackmatter/AbstractDE.tex)
-Overfull \hbox (3.39908pt too wide) in paragraph at lines 7--78
-\T1/pplj/m/n/10.95 kom-men. Diese Ar-beit beschäftigt sich mit dy-namis-chen un
-d statis-chen Meth-
- []
-
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
 (Font)              scaled to size 10.42007pt on input line 78.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
@@ -1691,7 +1686,7 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 10.42007pt on input line 78.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 7.91925pt on input line 78.
-[4
+ [4
 
 
 
@@ -1702,7 +1697,8 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 ]
 \openout2 = `frontbackmatter/Contents.aux'.
 
- (./frontbackmatter/Contents.tex
+
+(./frontbackmatter/Contents.tex
 Package tocbasic Info: character protrusion at toc deactivated on input line 11
 .
  (./thesis.toc
@@ -1842,8 +1838,12 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 ]
 Kapitel 1.
 (./chapters/Einleitung/problemstellung.tex
-LaTeX Font Info:    Trying to load font information for T1+fvm on input line 7.
+Overfull \hbox (1.00813pt too wide) in paragraph at lines 3--4
+\T1/pplj/m/n/10.95 führung eines ein-fachen Ja-va Pro-gramms, er-stellt Ja-va n
+icht nur einen Thread
+ []
 
+LaTeX Font Info:    Trying to load font information for T1+fvm on input line 7.
 
 (/usr/share/texlive/texmf-dist/tex/latex/bera/t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
@@ -1855,13 +1855,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 )
-(./chapters/Einleitung/zielsetzung.tex
-Overfull \hbox (3.58138pt too wide) in paragraph at lines 7--1
-\T1/pplj/m/n/10.95 gle-ichzeit-ig beschrieben wird, wodurch eine Inkon-sis-tenz
- in den Dat-en entste-
- []
-
-)
+(./chapters/Einleitung/zielsetzung.tex)
 Overfull \hbox (0.3285pt too wide) in paragraph at lines 3--100
 \T1/pplj/m/n/10.95 schiedene Meth-o-d-en über-prüfen kann und dadurch vorher un
 -bekan-nte Bugs
@@ -1891,7 +1885,7 @@ ich Göetz u.a. [[][]4[][]] und Fekete [[][]3[][]]. Bei-de gehen dazu beispiel-
 Kapitel 3.
 (./chapters/TheoretischeGrundlagen/thread.tex)
 (./chapters/TheoretischeGrundlagen/threadsafety.tex
-Overfull \hbox (0.58186pt too wide) in paragraph at lines 7--1
+Overfull \hbox (0.58186pt too wide) in paragraph at lines 5--1
 []\T1/pplj/m/n/10.95 Threads, die zu einem gle-ichen Prozess gehören, greifen z
 u-dem auf densel-
  []
@@ -1922,7 +1916,13 @@ Dy-namis-che und Statis-
  []
 
 
-Overfull \hbox (35.56549pt too wide) in paragraph at lines 3--3
+Overfull \hbox (5.78159pt too wide) in paragraph at lines 5--6
+[]\T1/pplj/m/n/10.95 Die Dy-namis-che Meth-ode hinge-gen führt das Pro-gramm au
+s und analysiert
+ []
+
+
+Overfull \hbox (35.56549pt too wide) in paragraph at lines 9--9
 |[]\T1/pplj/m/sc/10.95/80ls dynamische race de-tec-tion durch die hap-pens be-f
 ore beziehung| 
  []
@@ -1931,60 +1931,60 @@ ore beziehung|
 
 
 ]
-Overfull \hbox (5.20575pt too wide) in paragraph at lines 27--28
+Overfull \hbox (5.20575pt too wide) in paragraph at lines 33--34
 \T1/pplj/m/n/10.95 machen. Statis-che Zäh-ler welche Write On-ly sind wer-den a
 ls gutar-tig markiert
  []
 
 
-Overfull \hbox (2.1258pt too wide) in paragraph at lines 31--32
+Overfull \hbox (2.1258pt too wide) in paragraph at lines 37--38
 []\T1/pplj/m/n/10.95 In Win-dows Ker-nel, für den Da-ta Col-lid-er gemacht wurd
 e, gibt es Spezielle
  []
 
 
-Overfull \hbox (5.13628pt too wide) in paragraph at lines 31--32
+Overfull \hbox (5.13628pt too wide) in paragraph at lines 37--38
 \T1/pplj/m/n/10.95 Vari-ablen, bei de-nen Da-ta Races er-wartet wer-den und kei
 n Prob-lem darstellen.
  []
 
 Package acronym Info: Label `acro:TSVD' newly defined as it shall be overridden
 
-although it is yet undefined on input line 35.
+although it is yet undefined on input line 41.
 [7] [8]
-Overfull \hbox (19.1507pt too wide) in paragraph at lines 75--76
+Overfull \hbox (19.1507pt too wide) in paragraph at lines 81--82
 \T1/pplj/m/n/10.95 Die Im-ple-men-ta-tion dieses Al-go-rith-mus wurde für .NET 
 Ap-p-lika-tio-nen gemacht
  []
 
 
-Overfull \hbox (11.62495pt too wide) in paragraph at lines 75--76
+Overfull \hbox (11.62495pt too wide) in paragraph at lines 81--82
 \T1/pplj/m/n/10.95 ([][]$\T1/fvm/m/n/10.95 https : / / github . com / microsoft
  / TSVD$[][]\T1/pplj/m/n/10.95 ). Dabei wurde das Pro-gramm aufgeteilt
  []
 
 Package acronym Info: Label `acro:CLI' newly defined as it shall be overridden
-although it is yet undefined on input line 77.
+although it is yet undefined on input line 83.
 Package acronym Info: Label `acro:API' newly defined as it shall be overridden
-although it is yet undefined on input line 77.
+although it is yet undefined on input line 83.
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--82
+Underfull \hbox (badness 10000) in paragraph at lines 85--88
 
  []
 
 <gfx/TSVDvDataCollider.png, id=275, 478.1865pt x 217.41225pt>
 File: gfx/TSVDvDataCollider.png Graphic file (type png)
 <use gfx/TSVDvDataCollider.png>
-Package pdftex.def Info: gfx/TSVDvDataCollider.png  used on input line 107.
+Package pdftex.def Info: gfx/TSVDvDataCollider.png  used on input line 113.
 (pdftex.def)             Requested size: 296.00113pt x 134.58519pt.
 ) (./chapters/Ueberpruefen/lockset.tex [9] [10 <./gfx/TSVDvDataCollider.png>]
 <gfx/eraser_state.png, id=318, 660.4675pt x 550.055pt>
 File: gfx/eraser_state.png Graphic file (type png)
 <use gfx/eraser_state.png>
-Package pdftex.def Info: gfx/eraser_state.png  used on input line 43.
+Package pdftex.def Info: gfx/eraser_state.png  used on input line 41.
 (pdftex.def)             Requested size: 185.0pt x 154.07309pt.
 
-Overfull \hbox (28.44801pt too wide) in paragraph at lines 51--52
+Overfull \hbox (28.44801pt too wide) in paragraph at lines 49--50
 \T1/pplj/m/n/10.95 bei Eras-er war und de-mentsprechend noch viele Stellen Verb
 esserungsmöglichkeit-
  []
@@ -2277,8 +2277,8 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 ### bottom level 
 Here is how much of TeX's memory you used:
  32134 strings out of 480806
- 583013 string characters out of 5905151
- 1667259 words of memory out of 6000000
+ 583006 string characters out of 5905151
+ 1666949 words of memory out of 6000000
  48649 multiletter control sequences out of 15000+600000
  485510 words of font info for 150 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
@@ -2293,7 +2293,7 @@ mf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/share/texlive/texmf-dist/fonts
 c/bera/fvmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8
 a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on thesis.pdf (25 pages, 252939 bytes).
+Output written on thesis.pdf (25 pages, 252599 bytes).
 PDF statistics:
  571 PDF objects out of 1000 (max. 8388607)
  516 compressed objects within 6 object streams
