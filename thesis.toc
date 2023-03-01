@@ -1,8 +1,8 @@
-\babel@toc {american}{}
+\babel@toc {american}{}\relax 
 \vspace {-\cftbeforepartskip }
-\babel@toc {ngerman}{}
-\babel@toc {ngerman}{}
-\babel@toc {ngerman}{}
+\babel@toc {ngerman}{}\relax 
+\babel@toc {ngerman}{}\relax 
+\babel@toc {ngerman}{}\relax 
 \contentsline {part}{\numberline {i}{Wissenschaftliche Arbeit}}{1}{part.1}%
 \contentsline {chapter}{\numberline {1}{Einleitung}}{2}{chapter.1}%
 \contentsline {section}{\numberline {1.1}{Problemstellung}}{2}{section.1.1}%

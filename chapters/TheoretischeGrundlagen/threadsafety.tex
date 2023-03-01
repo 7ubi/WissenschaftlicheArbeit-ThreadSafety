@@ -1,6 +1,7 @@
 \section{Thread Safety}\label{sec:threadSafety}
 
-$"$A class is thread-safe if it behaves correctly when accessed from multiple threads, regardless of the scheduling or interleaving of the execution of those threads by the runtime environment, and with no additional synchronization or other coordination on the part of the calling code$"$ \cite[12]{brian}.\\ %Zeile 36-38
+%$"$A class is thread-safe if it behaves correctly when accessed from multiple threads, regardless of the scheduling or interleaving of the execution of those threads by the runtime environment, and with no additional synchronization or other coordination on the part of the calling code$"$ \cite[12]{brian}.\\ %Zeile 36-38
+Eine Klasse gilt als Thread sicher, wenn diese von mehreren Threads gleichzeitig aufgerufen werden kann, ohne zusätzliche Synchronisation oder Koordination vom Code, der die Klasse aufruft \cite[vgl.][12]{brian}.
 
 %\begin{comment}
 \begin{lstlisting}[language=Java,frame=tb,caption={Non-thread-safe Sequence Generator \cite{brian}}, label={lst:threadSafety}, numbers=left, stepnumber=1, captionpos=b]
@@ -18,5 +19,5 @@ public class UnsafeSequenz {
 
 Data Races entstehen, wenn zwei Threads gleichzeitig auf eine Ressource im Shared Memory zugreifen und mindestens eine der Operation beim Zugriff eine Schreiboperation ist \cite[vgl.][72]{banerjee_theory_2006}. 
 
-Als Beispiel hierfür dient der Quellcode \ref{lst:threadSafety}. Wenn zwei Threads, parallel auf die Funktion \texttt{getNext()} zugreifen, kann in beiden Fällen die gleiche Zahl zurück gegeben werden. Dies ist möglich, da es sich bei Operation \texttt{value++} nicht eine, sondern um drei Unterschiedliche handelt. Zunächst holt man sich den momentanen Integer, der in der Variable \texttt{value} steht. Danach addiert man eins auf \texttt{value} und schreibt den neuen Wert für \texttt{value} zurück. Das Problem ist, das bei schlechtem Timing am Anfang dieselbe Zahl benutzt werden kann und somit am Ende dieselbe Zahl zurückgegeben wird \cite[vgl.][5]{brian}.
+Als Beispiel hierfür dient der Quellcode \ref{lst:threadSafety}. Wenn zwei Threads, zum gleichen Zeitpunkt parallel auf die Funktion \texttt{getNext()} zugreifen, kann in beiden Fällen die gleiche Zahl zurück gegeben werden. Dies ist möglich, da es sich bei Operation \texttt{value++} nicht eine, sondern um drei Unterschiedliche handelt. Zunächst holt man sich den momentanen Integer, der in der Variable \texttt{value} steht. Danach addiert man eins auf \texttt{value} und schreibt den neuen Wert für \texttt{value} zurück. Das Problem ist, das bei schlechtem Timing am Anfang dieselbe Zahl benutzt werden kann und somit am Ende dieselbe Zahl zurückgegeben wird \cite[vgl.][5]{brian}.
 

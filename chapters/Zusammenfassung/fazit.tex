@@ -1,10 +1,16 @@
 \section{Fazit}
 
 Ziel der Arbeit war es, den Lesenden zu zeigen, was Thread Safety ist und warum man es braucht. Des Weiteren sollte die Arbeit erläutern, wie man Verstöße erkennt und erkannte Verstöße löst.
+%
+%Was Thread Safety ist und wie ein Data Race entsteht, wurde in den \hyperref[sec:threadSafety]{Theoretischen Grundlagen} erklärt.
+%
+%
+%Anschließend wurde darauf eingegangen, wie man durch Dynamische bzw. Statische Race Detection Data Races in einem Programm erkennen kann. Dabei wurde die Dynamische Race Detection zwischen der \acs{HB} Beziehung und dem Lockset Algorithmus unterschieden.
+%
+%Zuletzt wurde beispielhaft an dem Synchronized Keyword in Java erklärt, wie man die gefunden Data Races beheben kann und welche Probleme, also Deadlocks oder Livelocks, entstehen können, wenn man schlechte Synchronization verwendet. 
 
-Was Thread Safety ist und wie ein Data Race entsteht, wurde in den \hyperref[sec:threadSafety]{Theoretischen Grundlagen} erklärt.
+Thread Safety ist gegeben, wenn diese von mehreren Threads gleichzeitig aufgerufen werden kann, ohne zusätzliche Synchronisation oder Koordination vom Code, der die Klasse aufruft. Wenn zwei Threads zur gleichen Zeit Parallel auf eine Ressource zugreifen, nennt man das Data Race und es gibt ein Thread Safety Problem.
 
+Um Data Races zu erkennen gibt es zwei verschiedene Möglichkeiten. Die eine Möglichkeit sind dynamische Race Detection Algorithmen, welche in die \acs{HB}-Beziehung und den Lockset Algorithmus aufgeteilt sind. Diese Methode Analysiert ein Programm während der Laufzeit. Die andere Möglichkeit ist es statische Race Detection Algorithmen zu verwenden, welche den Quellcode ohne diesen Auszuführen analysieren.
 
-Anschließend wurde darauf eingegangen, wie man durch Dynamische bzw. Statische Race Detection Data Races in einem Programm erkennen kann. Dabei wurde die Dynamische Race Detection zwischen der \acs{HB} Beziehung und dem Lockset Algorithmus unterschieden.
-
-Zuletzt wurde beispielhaft an dem Synchronized Keyword in Java erklärt, wie man die gefunden Data Races beheben kann und welche Probleme, also Deadlocks oder Livelocks, entstehen können, wenn man schlechte Synchronization verwendet. 
+Die gefundenen Data Races kann man durch Synchronisierung beheben. In Java gibt es dafür das \texttt{synchronized} Keyword, welches ein Schloss auf das Objekt setzt, sodass nur ein Thread auf das Objekt zugreifen kann. Jedoch muss man dabei vorsichtig sein, da durch schlechte Synchronisierung Liveness Hazards, wie Deadlocks auftreten können.

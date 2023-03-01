@@ -127,30 +127,43 @@
     \field{year}{2010}
   \endentry
 
-  \entry{fekete_teaching_nodate}{article}{}
+  \entry{fekete_teaching_nodate}{inproceedings}{}
     \name{author}{1}{}{%
       {{hash=FAD}{%
          family={Fekete},
          familyi={F\bibinitperiod},
-         given={Alan\bibnamedelima D},
+         given={Alan\bibnamedelima D.},
          giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
       }}%
     }
-    \list{language}{1}{%
-      {en}%
+    \list{publisher}{1}{%
+      {Association for Computing Machinery}%
     }
+    \keyw{data interference, thread-safety, concurrency, synchronization, race
+  conditions}
     \strng{namehash}{FAD1}
     \strng{fullhash}{FAD1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{sortinit}{F}
     \field{sortinithash}{F}
-    \field{title}{Teaching students to develop thread-safe java classes}
+    \field{booktitle}{Proceedings of the 13th Annual Conference on Innovation
+  and Technology in Computer Science Education}
+    \verb{doi}
+    \verb 10.1145/1384271.1384304
+    \endverb
+    \field{isbn}{9781605580784}
+    \field{pages}{119–123}
+    \field{series}{ITiCSE '08}
+    \field{title}{Teaching Students to Develop Thread-Safe Java Classes}
     \verb{url}
     \verb https://dl.acm.org/doi/pdf/10.1145/1597849.1384304
     \endverb
-    \field{month}{09}
+    \list{location}{1}{%
+      {Madrid, Spain}%
+    }
     \field{year}{2008}
+    \warn{\item Can't use 'location' + 'address'}
   \endentry
 
   \entry{brian}{book}{}
@@ -273,7 +286,7 @@
     \field{year}{2019}
   \endentry
 
-  \entry{naik_effective_nodate}{article}{}
+  \entry{naik_effective_nodate}{inproceedings}{}
     \name{author}{3}{}{%
       {{hash=NM}{%
          family={Naik},
@@ -294,8 +307,8 @@
          giveni={J\bibinitperiod},
       }}%
     }
-    \list{language}{1}{%
-      {en}%
+    \list{publisher}{1}{%
+      {Association for Computing Machinery}%
     }
     \strng{namehash}{NMAAWJ1}
     \strng{fullhash}{NMAAWJ1}
@@ -303,12 +316,23 @@
     \field{labeltitlesource}{title}
     \field{sortinit}{N}
     \field{sortinithash}{N}
-    \field{title}{Effective {Static} {Race} {Detection} for {Java}}
+    \field{booktitle}{Proceedings of the 27th ACM SIGPLAN Conference on
+  Programming Language Design and Implementation}
+    \verb{doi}
+    \verb 10.1145/1133981.1134018
+    \endverb
+    \field{isbn}{1595933204}
+    \field{pages}{308–319}
+    \field{series}{PLDI '06}
+    \field{title}{Effective Static Race Detection for Java}
     \verb{url}
     \verb https://dl.acm.org/doi/pdf/10.1145/1133981.1134018
     \endverb
-    \field{month}{06}
+    \list{location}{1}{%
+      {Ottawa, Ontario, Canada}%
+    }
     \field{year}{2006}
+    \warn{\item Can't use 'location' + 'address'}
   \endentry
 
   \entry{savage_eraser_nodate}{article}{}
