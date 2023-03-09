@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.28)  1 MAR 2023 11:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.28)  9 MAR 2023 16:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1330,10 +1330,9 @@ LaTeX Font Info:    Trying to load font information for T1+pplj on input line 6
 File: t1pplj.fd 2004/09/06 font definitions for T1/pplj.
 ) (./thesis.aux
 (./frontbackmatter/Titlepage.aux) (./frontbackmatter/Titleback.aux)
-(./frontbackmatter/Declaration.aux) (./frontbackmatter/AbstractDE.aux)
-(./frontbackmatter/Contents.aux) (./frontbackmatter/Figures.aux)
-(./frontbackmatter/Tables.aux) (./frontbackmatter/Listings.aux)
-(./frontbackmatter/Acronyms.aux)
+(./frontbackmatter/AbstractDE.aux) (./frontbackmatter/Contents.aux)
+(./frontbackmatter/Figures.aux) (./frontbackmatter/Tables.aux)
+(./frontbackmatter/Listings.aux) (./frontbackmatter/Acronyms.aux)
 (./chapters/StandderForschung/standderforschung.aux)
 (./frontbackmatter/Bibliography.aux))
 \openout1 = `thesis.aux'.
@@ -1602,32 +1601,10 @@ File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
 
 
 ]
-\openout2 = `frontbackmatter/Declaration.aux'.
-
-
-(./frontbackmatter/Declaration.tex
-<gfx/unterschrift.png, id=22, 798.985pt x 220.825pt>
-File: gfx/unterschrift.png Graphic file (type png)
-<use gfx/unterschrift.png>
-Package pdftex.def Info: gfx/unterschrift.png  used on input line 29.
-(pdftex.def)             Requested size: 155.0029pt x 42.84013pt.
-
-Overfull \hbox (12.73912pt too wide) in paragraph at lines 29--30
-[]|[]| 
- []
-
-) [3
-
-
-
-
-
-
-
- <./gfx/unterschrift.png>]
 \openout2 = `frontbackmatter/AbstractDE.aux'.
 
- (./frontbackmatter/AbstractDE.tex)
+
+(./frontbackmatter/AbstractDE.tex)
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
 (Font)              scaled to size 10.42007pt on input line 78.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
@@ -1636,7 +1613,7 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 10.42007pt on input line 78.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 7.91925pt on input line 78.
- [4
+ [3
 
 
 
@@ -1647,11 +1624,11 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 ]
 \openout2 = `frontbackmatter/Contents.aux'.
 
-
-(./frontbackmatter/Contents.tex
+ (./frontbackmatter/Contents.tex
 Package tocbasic Info: character protrusion at toc deactivated on input line 11
 .
- (./thesis.toc
+
+(./thesis.toc
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/pplj/m/sc/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -1659,7 +1636,7 @@ Package microtype Info: Character `029' is missing
 \tf@toc=\write5
 \openout5 = `thesis.toc'.
 
- [5
+ [4
 
 
 
@@ -1670,8 +1647,7 @@ Package microtype Info: Character `029' is missing
 ])
 \openout2 = `frontbackmatter/Figures.aux'.
 
-
-(./frontbackmatter/Figures.tex
+ (./frontbackmatter/Figures.tex
 1: section
 1: chapter
 1: chapter
@@ -1682,7 +1658,7 @@ Package tocbasic Info: character protrusion at lof deactivated on input line 9.
 \tf@lof=\write6
 \openout6 = `thesis.lof'.
 
- [6
+ [5
 
 
 
@@ -1706,7 +1682,7 @@ Package tocbasic Info: character protrusion at lot deactivated on input line 9.
 \tf@lot=\write7
 \openout7 = `thesis.lot'.
 
- [7
+ [6
 
 
 
@@ -1728,7 +1704,7 @@ Package tocbasic Info: character protrusion at lot deactivated on input line 9.
 \tf@lol=\write8
 \openout8 = `thesis.lol'.
 
- [8
+ [7
 
 
 
@@ -1746,7 +1722,7 @@ Package tocbasic Info: character protrusion at lot deactivated on input line 9.
 1: chapter
 1: chapter
 1: section
-[9
+[8
 
 
 
@@ -1783,31 +1759,58 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 ]
 Kapitel 1.
 (./chapters/Einleitung/problemstellung.tex
-LaTeX Font Info:    Trying to load font information for T1+fvm on input line 7.
+LaTeX Font Info:    Trying to load font information for T1+fvm on input line 5.
 
 
 (c:/texlive/2022/texmf-dist/tex/latex/bera/t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 9.30756pt on input line 7.
+(Font)              scaled to size 9.30756pt on input line 5.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `fvm' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 )
-(./chapters/Einleitung/zielsetzung.tex) [2
+(./chapters/Einleitung/zielsetzung.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--1
+
+ []
 
 
-]
+Overfull \hbox (5.24959pt too wide) in paragraph at lines 3--1
+\T1/pplj/m/n/10.95 groÿen Nach-teil mit sich. Durch das par-al-le-le Auf-ru-fen
+ des sel-ben Pro-gramms
+ []
+
+) (./chapters/Einleitung/gliederung.tex)
+Overfull \hbox (3.28955pt too wide) in paragraph at lines 3--101
+\T1/pplj/m/n/10.95 Thread Sa-fe-ty er-klärt. Da-zu zäh-len auch die Grund-la-ge
+n zum The-ma Threads
+ []
+
+
+Overfull \hbox (3.11436pt too wide) in paragraph at lines 3--101
+\T1/pplj/m/n/10.95 und Mul-ti-threa-ding. Als Nächs-tes wer-den ver-schie-de-ne
+ Me-tho-den zum Über-
+ []
+
+[2
+
+
+] [3]
 \openout2 = `chapters/StandderForschung/standderforschung.aux'.
 
-
-(./chapters/StandderForschung/standderforschung.tex
+ (./chapters/StandderForschung/standderforschung.tex
 Kapitel 2.
 Package acronym Info: Label `acro:HB' newly defined as it shall be overridden
 although it is yet undefined on input line 3.
-) [3
+)
+Underfull \hbox (badness 10000) in paragraph at lines 3--102
+
+ []
+
+[4
 
 
 
@@ -1815,53 +1818,101 @@ although it is yet undefined on input line 3.
 Kapitel 3.
 (./chapters/TheoretischeGrundlagen/thread.tex)
 (./chapters/TheoretischeGrundlagen/threadsafety.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--1
+
+ []
+
 (c:/texlive/2022/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 7.
+nput line 10.
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 8.50006pt on input line 7.
- [4
+(Font)              scaled to size 8.50006pt on input line 10.
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--24
+
+ []
+
+[5
 
 
 
 
 ])
 Kapitel 4.
-[5] (./chapters/Ueberpruefen/happensbefore.tex [6
-
-
-]
-Package acronym Info: Label `acro:TSVD' newly defined as it shall be overridden
-
-although it is yet undefined on input line 43.
- [7] [8]
-Package acronym Info: Label `acro:CLI' newly defined as it shall be overridden
-although it is yet undefined on input line 85.
-Package acronym Info: Label `acro:API' newly defined as it shall be overridden
-although it is yet undefined on input line 85.
-
-Underfull \hbox (badness 10000) in paragraph at lines 87--90
+[6] (./chapters/Ueberpruefen/happensbefore.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--4
 
  []
 
-<gfx/TSVDvDataCollider.png, id=275, 478.1865pt x 217.41225pt>
+[7
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 21--24
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--30
+
+ []
+
+Package acronym Info: Label `acro:TSVD' newly defined as it shall be overridden
+
+although it is yet undefined on input line 33.
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 63--66
+
+ []
+
+[9]
+Package acronym Info: Label `acro:CLI' newly defined as it shall be overridden
+although it is yet undefined on input line 71.
+Package acronym Info: Label `acro:API' newly defined as it shall be overridden
+although it is yet undefined on input line 71.
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--74
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--74
+
+ []
+
+<gfx/TSVDvDataCollider.png, id=277, 478.1865pt x 217.41225pt>
 File: gfx/TSVDvDataCollider.png Graphic file (type png)
 <use gfx/TSVDvDataCollider.png>
-Package pdftex.def Info: gfx/TSVDvDataCollider.png  used on input line 115.
+Package pdftex.def Info: gfx/TSVDvDataCollider.png  used on input line 99.
 (pdftex.def)             Requested size: 296.00113pt x 134.58519pt.
-) (./chapters/Ueberpruefen/lockset.tex [9] [10 <./gfx/TSVDvDataCollider.png>]
-<gfx/eraser_state.png, id=318, 660.4675pt x 550.055pt>
+) (./chapters/Ueberpruefen/lockset.tex [10]
+Underfull \hbox (badness 10000) in paragraph at lines 7--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--37
+
+ []
+
+[11 <./gfx/TSVDvDataCollider.png>]
+<gfx/eraser_state.png, id=320, 660.4675pt x 550.055pt>
 File: gfx/eraser_state.png Graphic file (type png)
 <use gfx/eraser_state.png>
 Package pdftex.def Info: gfx/eraser_state.png  used on input line 41.
 (pdftex.def)             Requested size: 185.0pt x 154.07309pt.
-)
-(./chapters/Ueberpruefen/statisch.tex [11 <./gfx/eraser_state.png>])
+) (./chapters/Ueberpruefen/statisch.tex
+[12 <./gfx/eraser_state.png>])
 Kapitel 5.
-[12] (./chapters/Loesen/synchronized.tex
-Underfull \hbox (badness 10000) in paragraph at lines 9--12
+[13] (./chapters/Loesen/synchronized.tex
+Underfull \hbox (badness 10000) in paragraph at lines 7--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--12
 
  []
 
@@ -1871,7 +1922,7 @@ Overfull \hbox (5.7174pt too wide) in paragraph at lines 3--4
 -tre-ten kann, sind Liven-
  []
 
-[13
+[14
 
 
 ]
@@ -1881,21 +1932,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--27
 
 )
 Kapitel 6.
-[14] (./chapters/Zusammenfassung/fazit.tex)
-(./chapters/Zusammenfassung/ausblick.tex) [15
+[15] (./chapters/Zusammenfassung/fazit.tex)
+(./chapters/Zusammenfassung/ausblick.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--1
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--1
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--1
+
+ []
+
+) [16
 
 
 ]
 \openout2 = `frontbackmatter/Bibliography.aux'.
 
-
-(./frontbackmatter/Bibliography.tex
+ (./frontbackmatter/Bibliography.tex
 Overfull \hbox (8.53838pt too wide) in paragraph at lines 15--15
 \T1/pplj/m/n/10.95 Pad-hye. ^^P  Ef-fi-cient sca-la-ble thread-safety-violation
  de-tec-ti-on: fin-ding thou-
  []
 
-[16
+[17
 
 
 
@@ -1903,11 +1968,11 @@ Overfull \hbox (8.53838pt too wide) in paragraph at lines 15--15
 
 
 
-]) [17] (./thesis.aux (./frontbackmatter/Titlepage.aux)
-(./frontbackmatter/Titleback.aux) (./frontbackmatter/Declaration.aux)
-(./frontbackmatter/AbstractDE.aux) (./frontbackmatter/Contents.aux)
-(./frontbackmatter/Figures.aux) (./frontbackmatter/Tables.aux)
-(./frontbackmatter/Listings.aux) (./frontbackmatter/Acronyms.aux)
+]) [18] (./thesis.aux (./frontbackmatter/Titlepage.aux)
+(./frontbackmatter/Titleback.aux) (./frontbackmatter/AbstractDE.aux)
+(./frontbackmatter/Contents.aux) (./frontbackmatter/Figures.aux)
+(./frontbackmatter/Tables.aux) (./frontbackmatter/Listings.aux)
+(./frontbackmatter/Acronyms.aux)
 (./chapters/StandderForschung/standderforschung.aux)
 (./frontbackmatter/Bibliography.aux))
 
@@ -2105,8 +2170,6 @@ gfx/logo_h-da_rot.pdf
  ot1zplm.fd    2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 frontbackmatter/Titleback.tex
  ts1pplj.fd    2004/09/06 font definitions for TS1/pplj.
-frontbackmatter/Declaration.tex
-gfx/unterschrift.png
 frontbackmatter/AbstractDE.tex
 frontbackmatter/Contents.tex
 frontbackmatter/Figures.tex
@@ -2116,6 +2179,7 @@ frontbackmatter/Acronyms.tex
 chapters/Einleitung/problemstellung.tex
    t1fvm.fd    2004/09/07 scalable font definitions for T1/fvm.
 chapters/Einleitung/zielsetzung.tex
+chapters/Einleitung/gliederung.tex
 chapters/StandderForschung/standderforschung.tex
 chapters/TheoretischeGrundlagen/thread.tex
 chapters/TheoretischeGrundlagen/threadsafety.tex
@@ -2143,13 +2207,13 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 ### simple group (level 1) entered at line 57 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 33977 strings out of 476024
- 644165 string characters out of 5794016
- 1952382 words of memory out of 5000000
- 53559 multiletter control sequences out of 15000+600000
+ 33951 strings out of 476024
+ 642954 string characters out of 5794016
+ 1953382 words of memory out of 5000000
+ 53537 multiletter control sequences out of 15000+600000
  594367 words of font info for 155 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 108i,22n,119p,10622b,14622s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,22n,119p,10622b,14591s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{abk\374rzungsverzeichnis.1} has been referenced but
  does not exist, replaced by a fixed one
@@ -2161,10 +2225,10 @@ c/fpl/fplrij8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/bera/fvmr8a.p
 fb><c:/texlive/2022/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><c:/texlive/
 2022/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/texlive/2022/texmf-dist
 /fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on thesis.pdf (26 pages, 258965 bytes).
+Output written on thesis.pdf (26 pages, 238189 bytes).
 PDF statistics:
- 582 PDF objects out of 1000 (max. 8388607)
- 519 compressed objects within 6 object streams
- 153 named destinations out of 1000 (max. 500000)
- 20205 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 591 PDF objects out of 1000 (max. 8388607)
+ 529 compressed objects within 6 object streams
+ 154 named destinations out of 1000 (max. 500000)
+ 20216 words of extra memory for PDF output out of 20736 (max. 10000000)
 

@@ -4,8 +4,8 @@ Diese Sektion beschäftigt sich damit, wie die zuvor gefundenen Thread Safety Ve
 
 \section{Synchronized}
 
- Java bietet mehrere Optionen zum Lösen der Verstöße. Zum einen bietet Java seit Java 5 die \texttt{java.util.concurrent} Bibliothek, mit der sich der nächste Teil beschäftigt. Zum andern wird das \texttt{synchronized} keyword gestellt, mit dem sich diese Sektion beschäftigt \cite[vgl.][121]{fekete_teaching_nodate}. 
-
+ Java bietet mehrere Optionen zum Lösen der Verstöße. Zum einen bietet Java seit Java 5 die \texttt{java.util.concurrent} Bibliothek, mit der sich der nächste Teil beschäftigt. Zum andern wird das \texttt{synchronized} keyword gestellt, mit dem sich diese Sektion beschäftigt \cite[vgl.][121]{fekete_teaching_nodate}. \\
+\\
  Um das \texttt{synchronized} keyword zu erläutern wird das Beispiel, aus den \hyperref[sec:threads]{Theoretische Grundlagen}, \ref{lst:threadSafety}. In \ref{lst:threadSafetySolved} wird eine Klasse beschrieben, die dieselbe Funktionalität wie die Klasse in \ref{lst:threadSafety} hat. Der Unterschied zwischen den Klassen ist, dass \ref{lst:threadSafetySolved} Thread sicher ist und somit von mehreren Threads gleichzeitig aufgerufen werden kann, ohne das Problem entstehen \cite[vgl.][5-6]{brian}. 
 \\
 %\begin{comment}
@@ -19,6 +19,7 @@ public class Sequenz {
 }
 \end{lstlisting}
 %\end{comment}
+
 
 Das \texttt{synchroized} keyword setzt dabei eine Art Schloss, auch Lock genannt, auf das Objekt, sodass nur ein Thread gleichzeitig darauf zugreifen kann. Wenn also die Methode \texttt{getNext()} von einem Objekt der Klasse \texttt{Sequenz} vom Thread A aufgerufen wird und der Thread B dieselbe Methode des gleichen Objekts aufrufen will, muss Thread B solange warten bis A fertig ist und das Schloss auflöst \cite[vgl.][17]{brian}.
 
