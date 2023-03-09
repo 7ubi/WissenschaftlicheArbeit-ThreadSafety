@@ -48,7 +48,7 @@ Die Planung und Injektion sind bei \acs{TSVD} in einem Durchlauf des Programms. 
 \subsubsection*{Algorithmus}
 
 %\begin{comment}
-\begin{lstlisting}[language=Java,frame=tb,caption={\acs{TSVD} Trap Mechanism}, label={lst:TSVD}, numbers=left, stepnumber=1,  captionpos=b]
+\begin{lstlisting}[language=Java,frame=tb,caption={\acs{TSVD} Trap Mechanism}, label={lst:TSVD}, numbers=left, stepnumber=1,  captionpos=b, tabsize=4]
 OnCall (thread_id, obj_id, op_id) { 
      check_for_trap(thread_id , obj_id , op_id) 
      if (should_delay(op_id)) {
@@ -71,7 +71,7 @@ Die Implementation dieses Algorithmus wurde für .NET Applikationen gemacht (\ur
 Der Instrumenter ist dabei ein \ac{CLI} Tool oder in Visual Studio ein Post-Build Step. Als Eingabe nimmt das Programm dabei die Binärdatei eines Programms und eine Liste an Thread unsicheren \ac{API}s. Der Instumenter ersetzt dann die Aufrufe auf die Thread unsicheren \acs{API}s mit Proxy Aufrufen. Wie diese Proxy Aufrufe funktionieren, ist in \ref{lst:TSVDImpl} dargestellt. \cite[vgl.][170]{li_efficient_2019}. \acs{TSVD} Runtime hingegen implementiert die \texttt{OnCall} Methode und protokolliert den Kontext, wenn ein Bug gefunden wird \cite[vgl.][170-171]{li_efficient_2019}.
 \\
 %\begin{comment}
-\begin{lstlisting}[language=Java,frame=tb,caption={\acs{TSVD} Proxy Aufrufe}, label={lst:TSVDImpl}, numbers=left, stepnumber=1, captionpos=b]
+\begin{lstlisting}[language=Java,frame=tb,caption={\acs{TSVD} Proxy Aufrufe}, label={lst:TSVDImpl}, numbers=left, stepnumber=1, captionpos=b, tabsize=4]
 // (a) Original code
 List <int> listObject = new List <int>();
 listObject.Add(15); 

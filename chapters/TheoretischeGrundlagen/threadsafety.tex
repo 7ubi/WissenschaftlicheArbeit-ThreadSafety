@@ -7,14 +7,14 @@ Eine Klasse gilt als Thread sicher, wenn diese von mehreren Threads gleichzeitig
 
 \subsection*{Data Race}
 %\begin{comment}
-\begin{lstlisting}[language=Java,frame=tb,caption={Non-thread-safe Sequence Generator \cite{brian}}, label={lst:threadSafety}, numbers=left, stepnumber=1, captionpos=b]
-	public class UnsafeSequenz {
-		private int value;
-		
-		public int getNext() {
-			return value++;
-		}
+\begin{lstlisting}[language=Java,frame=tb,caption={Non-thread-safe Sequence Generator \cite{brian}}, label={lst:threadSafety}, numbers=left, stepnumber=1, captionpos=b, tabsize=4]
+public class UnsafeSequenz {
+	private int value;
+	
+	public int getNext() {
+		return value++;
 	}
+}
 \end{lstlisting}
 
 %\end{comment}

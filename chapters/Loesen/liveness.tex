@@ -3,7 +3,7 @@
 Ein Problem, dass durch schlechte Synchronisation auftreten kann, sind Liveness Hazards. Diese entstehen, wenn beispielsweise Thread A darauf wartet, dass Thread B eine Ressource, aufhört zu locken, aber Thread B dies nie tut. Diese Art von Liveness Hazard nennt man livelock \cite[vgl.][5-6]{brian}.
 
 %\begin{comment}
-\begin{lstlisting}[language=Java,frame=tb,caption={Deadlock \cite{fekete_teaching_nodate}}, label={lst:deadlock}, numbers=left, stepnumber=1, captionpos=b]
+\begin{lstlisting}[language=Java,frame=tb,caption={Deadlock \cite{fekete_teaching_nodate}}, label={lst:deadlock}, numbers=left, stepnumber=1, captionpos=b, tabsize=4]
 class BankAccountA {
     private int balance; 
     private Bank myBank; 
@@ -24,7 +24,7 @@ class BankAccountA {
 Ein weiterer Liveness Hazard ist der Deadlock \cite[vgl.][6]{brian}. Dieser entsteht, wenn verschiedene Threads sich gegenseitig blockieren und dadurch kein Thread weitere Aufgabe ausführen kann. Ein Beispiel hierfür ist \ref{lst:deadlock}. Problem hierbei ist, dass wenn das \texttt{target} gleich dem auszuführenden BankAccountA ist, das \texttt{target} nicht gelocked werden kann in Zeile 10, da es bereits durch den Funktionsaufruf gelocked ist \cite[vgl.][122]{fekete_teaching_nodate}. 
 \\
 %\begin{comment}
-\begin{lstlisting}[language=Java,frame=tb,caption={Deadlock Lösung \cite{fekete_teaching_nodate}}, label={lst:deadlockLösung}, numbers=left, stepnumber=1, captionpos=b]
+\begin{lstlisting}[language=Java,frame=tb,caption={Deadlock Lösung \cite{fekete_teaching_nodate}}, label={lst:deadlockLösung}, numbers=left, stepnumber=1, captionpos=b, tabsize=4]
 class BankAccountB { 
     private int balance; 
     

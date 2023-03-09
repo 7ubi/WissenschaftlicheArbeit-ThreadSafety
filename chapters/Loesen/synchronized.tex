@@ -9,7 +9,7 @@ Diese Sektion beschäftigt sich damit, wie die zuvor gefundenen Thread Safety Ve
  Um das \texttt{synchronized} keyword zu erläutern wird das Beispiel, aus den \hyperref[sec:threads]{Theoretische Grundlagen}, \ref{lst:threadSafety}. In \ref{lst:threadSafetySolved} wird eine Klasse beschrieben, die dieselbe Funktionalität wie die Klasse in \ref{lst:threadSafety} hat. Der Unterschied zwischen den Klassen ist, dass \ref{lst:threadSafetySolved} Thread sicher ist und somit von mehreren Threads gleichzeitig aufgerufen werden kann, ohne das Problem entstehen \cite[vgl.][5-6]{brian}. 
 \\
 %\begin{comment}
- \begin{lstlisting}[language=Java,frame=tb,caption={Thread-safe Sequence Generator \cite{brian}}, label={lst:threadSafetySolved}, numbers=left, stepnumber=1, captionpos=b]
+ \begin{lstlisting}[language=Java,frame=tb,caption={Thread-safe Sequence Generator \cite{brian}}, label={lst:threadSafetySolved}, numbers=left, stepnumber=1, captionpos=b, tabsize=4]
 public class Sequenz {
 	@GuardedBy("this") private int value;
 
