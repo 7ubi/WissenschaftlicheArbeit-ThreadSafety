@@ -77,6 +77,61 @@
     \field{urlyear}{2023}
   \endentry
 
+  \entry{racerd}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=BS}{%
+         family={Blackshear},
+         familyi={B\bibinitperiod},
+         given={Sam},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=GN}{%
+         family={Gorogiannis},
+         familyi={G\bibinitperiod},
+         given={Nikos},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=OPW}{%
+         family={O'Hearn},
+         familyi={O\bibinitperiod},
+         given={Peter\bibnamedelima W.},
+         giveni={P\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=SI}{%
+         family={Sergey},
+         familyi={S\bibinitperiod},
+         given={Ilya},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Association for Computing Machinery}%
+    }
+    \keyw{Static Analysis, Concurrent Separation Logic, Race Freedom,
+  Concurrency}
+    \strng{namehash}{BS+1}
+    \strng{fullhash}{BSGNOPWSI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{doi}
+    \verb 10.1145/3276514
+    \endverb
+    \field{number}{OOPSLA}
+    \field{title}{RacerD: Compositional Static Race Detection}
+    \verb{url}
+    \verb https://dl.acm.org/doi/pdf/10.1145/3290370
+    \endverb
+    \field{volume}{2}
+    \list{location}{1}{%
+      {New York, NY, USA}%
+    }
+    \field{journaltitle}{Proc. ACM Program. Lang.}
+    \field{year}{2018}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{erickson_effective_nodate}{article}{}
     \name{author}{4}{}{%
       {{hash=EJ}{%
@@ -164,6 +219,54 @@
     }
     \field{year}{2008}
     \warn{\item Can't use 'location' + 'address'}
+  \endentry
+
+  \entry{nikos_2019}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=GN}{%
+         family={Gorogiannis},
+         familyi={G\bibinitperiod},
+         given={Nikos},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=OPW}{%
+         family={O'Hearn},
+         familyi={O\bibinitperiod},
+         given={Peter\bibnamedelima W.},
+         giveni={P\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=SI}{%
+         family={Sergey},
+         familyi={S\bibinitperiod},
+         given={Ilya},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Association for Computing Machinery}%
+    }
+    \keyw{Concurrency, Static Analysis, Abstract Interpretation, Race Freedom}
+    \strng{namehash}{GNOPWSI1}
+    \strng{fullhash}{GNOPWSI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \verb{doi}
+    \verb 10.1145/3290370
+    \endverb
+    \field{number}{POPL}
+    \field{title}{A True Positives Theorem for a Static Race Detector}
+    \verb{url}
+    \verb https://doi.org/10.1145/3290370
+    \endverb
+    \field{volume}{3}
+    \list{location}{1}{%
+      {New York, NY, USA}%
+    }
+    \field{journaltitle}{Proc. ACM Program. Lang.}
+    \field{year}{2019}
+    \warn{\item Invalid format of field 'month'}
   \endentry
 
   \entry{brian}{book}{}
@@ -335,7 +438,7 @@
     \warn{\item Can't use 'location' + 'address'}
   \endentry
 
-  \entry{savage_eraser_nodate}{article}{}
+  \entry{savage_eraser_nodate}{inproceedings}{}
     \name{author}{5}{}{%
       {{hash=SS}{%
          family={Savage},
@@ -368,24 +471,34 @@
          giveni={T\bibinitperiod},
       }}%
     }
-    \list{language}{1}{%
-      {en}%
+    \list{publisher}{1}{%
+      {Association for Computing Machinery}%
     }
+    \keyw{multithreaded programming, binary code modification, race detection}
     \strng{namehash}{SS+1}
     \strng{fullhash}{SSBMNGSPAT1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{sortinit}{S}
     \field{sortinithash}{S}
-    \field{title}{Eraser: {A} {Dynamic} {Data} {Race} {Detector} for
-  {Multithreaded} {Programs}}
+    \verb{doi}
+    \verb 10.1145/265924.265927
+    \endverb
+    \field{issn}{0734-2071}
+    \field{number}{4}
+    \field{pages}{391–411}
+    \field{title}{Eraser: A Dynamic Data Race Detector for Multithreaded
+  Programs}
     \verb{url}
     \verb https://dl.acm.org/doi/pdf/10.1145/265924.265927
     \endverb
     \field{volume}{15}
-    \field{journaltitle}{ACM Transactions on Computer Systems}
-    \field{month}{11}
+    \list{location}{1}{%
+      {New York, NY, USA}%
+    }
+    \field{journaltitle}{ACM Trans. Comput. Syst.}
     \field{year}{1997}
+    \warn{\item Invalid format of field 'month'}
   \endentry
 
   \entry{relay}{inproceedings}{}

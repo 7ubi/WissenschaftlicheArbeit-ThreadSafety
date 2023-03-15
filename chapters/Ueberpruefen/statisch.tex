@@ -1,23 +1,26 @@
 \section{Statische Race Detection}
 
-Diese Sektion wird sich mit Relay beschäftigen, welches ein Programm für Statische Race Detection ist, der auf dem Lockset Algorithmus basiert, welcher zuvor auch in der Dynmamischen Race Detection verwendet wurde.
+Diese Sektion beschäftigt sich mit Statischer Race Detection. Diese funktioniert in den meisten Algorithmen, wie zum Beispiel Relay \cite[vgl.][208]{relay} oder RacerD \cite[vgl.][57]{nikos_2019}, mittels der Analyse von Locks in einem gegebenen Programm. Diese Analyse ist ähnlich, wie die Dynamische Race Detection durch Lockset Analyse. Die Sektion wird sich auf den von Facebook genutzten RacerD Algorithmus \cite[vgl.][2]{racerd} fokussieren und diesen erklären. 
 
-%\subsection{RacerX}
+\subsection*{RacerD}
 
-%\cite{engler_racerx_nodate}
-%
-%\subsection*{Relay}
-%
-%Relay benutzt eine Bottom-Up Analyse mit drei Komponenten. Zunächst die symbolische Ausführung, dann die Lockset Analyse und eine Analyse, welche Guarded Accesses berechnet. Nach der Analyse werden aus dem Ergebnis Warnungen generiert, welche auf Data Races hinweisen \cite[vgl.][208]{relay}.
-%
-%\subsubsection*{Symbolische Ausführung}
-%
-%
-%
-%\subsubsection*{Lockset Analys}
-%
-%\subsubsection*{Guarded Access}
-%
-%\subsubsection*{Generation von Warnungen}
-%
-\subsection{RacerD}
+RacerD analysiert alle nicht private Methoden von Klassen eines gegebenen Programms. Dabei müssen zwei Fragen beantwortet werden, für ein Paar Zugriffe einer Klasse \cite[vgl.][7]{racerd}:
+
+\begin{enumerate}
+	\item Sind die Zugriff auf die selbe Adresse?
+	\item Sind die Zugriffe gleichzeitig?
+\end{enumerate}
+
+Um diese Fragen zu beantworten gibt es in RacerD die Locks, Threads, Ownership und Access Snapshots Domänen \cite[vgl.][7-8]{racerd}. 
+
+\subsubsection*{Locks Domäne}
+
+Die Locks Domäne erkennt, dass kein Data Race entsteht, dadurch, dass das Objekt durch das selbe Lock geschützt wird und deswegen nur ein Thread gleichzeitig drauf zugreifen kann \cite[vgl.][8]{racerd}. RacerD hat als Ziel eine kleine Menge an Data Races zu finden, die mit hohem Vertrauen auch Races sind. Deshalb fokussiert sich RacerD darauf, unsicher Stellen zu finden, die durch kein Lock geschützt sind. Dabei versucht RacerD keine Races zu finden, die entstehen, da das Objekt durch das falsche Lock geschützt sind \cite[vgl.][9]{racerd}. 
+
+\subsubsection*{Threads Domäne}
+
+Die Threads Domäne erkennt, das kein Data Race vorliegt, indem es erfasst, ob ein Stelle nur von einem Thread aufgerufen werden kann \cite[vgl.][8]{racerd}.
+
+\subsubsection*{Ownership Domäne}
+
+\subsubsection*{Access Snapshots Domänen}

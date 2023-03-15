@@ -108,34 +108,6 @@
 	pages = {69--78},
 }
 
-@inproceedings{zhang_prorace_2017,
-	address = {Xi'an China},
-	title = {{ProRace}: {Practical} {Data} {Race} {Detection} for {Production} {Use}},
-	isbn = {978-1-4503-4465-4},
-	shorttitle = {{ProRace}},
-	url = {https://dl.acm.org/doi/10.1145/3037697.3037708},
-	doi = {10.1145/3037697.3037708},
-	language = {en},
-	urldate = {2023-02-06},
-	booktitle = {Proceedings of the {Twenty}-{Second} {International} {Conference} on {Architectural} {Support} for {Programming} {Languages} and {Operating} {Systems}},
-	publisher = {ACM},
-	author = {Zhang, Tong and Jung, Changhee and Lee, Dongyoon},
-	month = apr,
-	year = {2017},
-	pages = {149--162},
-}
-
-
-@article{engler_racerx_nodate,
-	title = {{RacerX}: {Effective}, {Static} {Detection} of {Race} {Conditions} and {Deadlocks}},
-	language = {en},
-	author = {Engler, Dawson and Ashcraft, Ken},
-    month = oct,
-    year = {2003},
-    url={https://www.cs.rochester.edu/meetings/sosp2003/papers/p200-engler.pdf}
-}
-
-
 @inproceedings{naik_effective_nodate,
 	author = {Naik, Mayur and Aiken, Alex and Whaley, John},
 	title = {Effective Static Race Detection for Java},
@@ -152,16 +124,23 @@
 	series = {PLDI '06}
 }
 
-
-@article{savage_eraser_nodate,
-	title = {Eraser: {A} {Dynamic} {Data} {Race} {Detector} for {Multithreaded} {Programs}},
-	volume = {15},
-	language = {en},
-	journal = {ACM Transactions on Computer Systems},
+@inproceedings{savage_eraser_nodate,
 	author = {Savage, Stefan and Burrows, Michael and Nelson, Greg and Sobalvarro, Patrick and Anderson, Thomas},
-    month = nov,
-    year = {1997},
-    url = {https://dl.acm.org/doi/pdf/10.1145/265924.265927},
+	title = {Eraser: A Dynamic Data Race Detector for Multithreaded Programs},
+	year = {1997},
+	issue_date = {Nov. 1997},
+	publisher = {Association for Computing Machinery},
+	address = {New York, NY, USA},
+	volume = {15},
+	number = {4},
+	issn = {0734-2071},
+	url = {https://dl.acm.org/doi/pdf/10.1145/265924.265927},
+	doi = {10.1145/265924.265927},
+	journal = {ACM Trans. Comput. Syst.},
+	month = {nov},
+	pages = {391–411},
+	numpages = {21},
+	keywords = {multithreaded programming, binary code modification, race detection}
 }
 
 @inproceedings{relay,
@@ -177,4 +156,40 @@
     pages = "205-214",
     location = {Dubrovnik, Croatia},
     series = {ESEC-FSE '07}
+}
+
+@inproceedings{nikos_2019,
+	author = {Gorogiannis, Nikos and O'Hearn, Peter W. and Sergey, Ilya},
+	title = {A True Positives Theorem for a Static Race Detector},
+	year = {2019},
+	issue_date = {January 2019},
+	publisher = {Association for Computing Machinery},
+	address = {New York, NY, USA},
+	volume = {3},
+	number = {POPL},
+	url = {https://doi.org/10.1145/3290370},
+	doi = {10.1145/3290370},
+	journal = {Proc. ACM Program. Lang.},
+	month = {jan},
+	articleno = {57},
+	numpages = {29},
+	keywords = {Concurrency, Static Analysis, Abstract Interpretation, Race Freedom}
+}
+
+@inproceedings{racerd,
+	author = {Blackshear, Sam and Gorogiannis, Nikos and O'Hearn, Peter W. and Sergey, Ilya},
+	title = {RacerD: Compositional Static Race Detection},
+	year = {2018},
+	issue_date = {November 2018},
+	publisher = {Association for Computing Machinery},
+	address = {New York, NY, USA},
+	volume = {2},
+	number = {OOPSLA},
+	url = {https://dl.acm.org/doi/pdf/10.1145/3290370},
+	doi = {10.1145/3276514},
+	journal = {Proc. ACM Program. Lang.},
+	month = {oct},
+	articleno = {144},
+	numpages = {28},
+	keywords = {Static Analysis, Concurrent Separation Logic, Race Freedom, Concurrency}
 }
