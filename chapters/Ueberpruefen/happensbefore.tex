@@ -38,7 +38,7 @@ In einem Programm nennt \acs{TSVD} ein Paar an Programmstellen gefährlich, wenn
 
 \subsubsection*{Wo wird Verzögert?}
 
-\acs{TSVD} benutzt ein Trap Set, um gefährliche Paare zu speichern. Der Algorithmus will Near-Misses zu wahren Konflikten machen, also werden Near-Misses in das Trap Set hinzugefügt. Aus dem Trap Set werden Paare entfernt, die entweder einen wahren Konflikt ausgelöst haben oder eine \acs{HB} Bezeihung zueinander haben \cite[vgl.][167]{li_efficient_2019}.
+\acs{TSVD} benutzt ein Trap Set, um gefährliche Paare zu speichern, bei denen potentiell Data Races entstehen können. Der Algorithmus will Near-Misses zu wahren Konflikten machen, also werden Near-Misses in das Trap Set hinzugefügt. Aus dem Trap Set werden Paare entfernt, die entweder einen wahren Konflikt ausgelöst haben oder eine \acs{HB} Bezeihung zueinander haben \cite[vgl.][167]{li_efficient_2019}.
 
 \subsubsection*{Wann wird Verzögert?}
 

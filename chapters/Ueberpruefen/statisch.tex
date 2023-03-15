@@ -19,7 +19,12 @@ Die Locks Domäne erkennt, dass kein Data Race entsteht, dadurch, dass das Objek
 
 \subsubsection*{Threads Domäne}
 
-Die Threads Domäne erkennt, das kein Data Race vorliegt, indem es erfasst, ob ein Stelle nur von einem Thread aufgerufen werden kann \cite[vgl.][8]{racerd}.
+Die Threads Domäne erkennt, das kein Data Race vorliegt, indem es erfasst, ob ein Stelle nur von einem Thread aufgerufen werden kann \cite[vgl.][8]{racerd}. Um zu festzustellen, ob eine Stelle im Programm mehreren Thread aufgerufen wird $"$concurrent context inferernce$"$ \cite[9]{racerd} genutzt. Dafür gibt es drei abtrakte Zustände.
+Gestartet wird im Stadium $"$NoThread$"$. Dieser bedeutet, dass diese Stelle nur auf einem Thread ausgeführt wird \cite[vgl.][9-10]{racerd}.\\
+\\
+Werden Annotationen, wie \texttt{@ThreadSafe} oder \texttt{@GuardedBy} genutzt, wird in den Zustand $"$AnyThread$"$ übergegangen. In diesem Zustand können Programm Code Stellen, die auf einem Thread laufen, der mit jedem anderen Thread verschachtelt werden kann. Dasselbe gilt auch bei Verwendung des \texttt{synchronized} keyword oder anderen Locks \cite[vgl.][10]{racerd}.\\
+\\
+Wenn die Annotation \texttt{@UiThread} oder die Utility-Methode \texttt{assertMainThread()} benutzt wird ändert sich der Zustand in $"$AnyThreadButMain$"$. Diese Prozeduren laufen auf dem Main Thread und können parallel zu Code in Hintergrund Threads laufen \cite[vgl.][10]{racerd}.
 
 \subsubsection*{Ownership Domäne}
 
