@@ -18,6 +18,7 @@
 \contentsline {subsection}{\numberline {4.1.2}{TSVD}}{8}{subsection.4.1.2}%
 \contentsline {section}{\numberline {4.2}{Dynamische Race Detection durch Locksets}}{11}{section.4.2}%
 \contentsline {section}{\numberline {4.3}{Statische Race Detection}}{13}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}{RacerD}}{13}{subsection.4.3.1}%
 \contentsline {chapter}{\numberline {5}{Lösen von Thread Safety Problemen}}{14}{chapter.5}%
 \contentsline {section}{\numberline {5.1}{Synchronized}}{14}{section.5.1}%
 \contentsline {section}{\numberline {5.2}{Liveness Hazards}}{14}{section.5.2}%
