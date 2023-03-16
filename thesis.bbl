@@ -132,7 +132,7 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
-  \entry{erickson_effective_nodate}{article}{}
+  \entry{erickson_effective_nodate}{inproceedings}{}
     \name{author}{4}{}{%
       {{hash=EJ}{%
          family={Erickson},

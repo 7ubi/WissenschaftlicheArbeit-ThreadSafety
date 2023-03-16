@@ -24,8 +24,33 @@ Gestartet wird im Stadium $"$NoThread$"$. Dieser bedeutet, dass diese Stelle nur
 \\
 Werden Annotationen, wie \texttt{@ThreadSafe} oder \texttt{@GuardedBy} genutzt, wird in den Zustand $"$AnyThread$"$ übergegangen. In diesem Zustand können Programm Code Stellen, die auf einem Thread laufen, der mit jedem anderen Thread verschachtelt werden kann. Dasselbe gilt auch bei Verwendung des \texttt{synchronized} keyword oder anderen Locks \cite[vgl.][10]{racerd}.\\
 \\
-Wenn die Annotation \texttt{@UiThread} oder die Utility-Methode \texttt{assertMainThread()} benutzt wird ändert sich der Zustand in $"$AnyThreadButMain$"$. Diese Prozeduren laufen auf dem Main Thread und können parallel zu Code in Hintergrund Threads laufen \cite[vgl.][10]{racerd}.
+Wenn die Annotation \texttt{@UiThread} oder die Methode \texttt{assertMainThread()} benutzt wird ändert sich der Zustand in $"$AnyThreadButMain$"$. Diese Prozeduren laufen auf dem Main Thread und können parallel zu Code in Hintergrund Threads laufen \cite[vgl.][10]{racerd}.
 
 \subsubsection*{Ownership Domäne}
 
+Die Ownership Domäne bezieht sich auf Speicher, welcher nur von einem Thread angesprochen werden kann und dadurch zu keinem Race führen kann. \ref{lst:ownership} gilt als Bespiel hierfür. Die Methode \texttt{ownedAccess()} kann ohne Data Races von mehreren Threads ausgeführt werden. Dies liegt daran, dass die Threads zwar das gleiche ausführen, aber jeder Thread eine neue Instanz \texttt{x} der Klasse \texttt{C} sich erzeugt. Es macht sich die Tatsache zunutze, dass ein neu initialisiertes Objekt über den Befehl \texttt{new} zugewiesen wird \cite[vgl.][10]{racerd}. \\
+
+%\begin{comment}
+\begin{lstlisting}[language=Java,frame=tb,caption={Ownership Domäne \cite{racerd}}, label={lst:ownership}, numbers=left, stepnumber=1, captionpos=b, tabsize=4]
+void ownedAccess() {
+	C x = new C();
+	c.x = 42;
+}
+\end{lstlisting}
+%\end{comment}
+
 \subsubsection*{Access Snapshots Domänen}
+
+Die Access Snapshots Domäne nimmt relevante Informationen in einem Access Snapshot und speichert sie, sobald auf Dynamischen Speicher zugegriffen wird \cite[vlg.][11]{racerd}. Gespeichert werden \cite[vgl.][8]{racerd}:
+\begin{itemize}
+	\item Die Stelle im Speicher, welche aufgerufen wird.
+	\item Die Art des Zugriffs, also ob gelesen oder geschrieben wird.
+	\item Wie viele Locks gehalten werden.
+	\item Ob die Stelle von mehreren Threads ausgeführt wird (Thread Domäne).
+	\item Ob die Stelle von nur einem Thread angesprochen werden kann (Ownership Domäne).
+\end{itemize}
+
+\subsubsection*{Data Races erkennen}
+
+Um Data Races mit RacerD zu erkennen werden für jedes Paar Access Snapshots mit einander verglichen. Um ein Data Race zu erzeugen müssen beide Access Snapshots auf die selbe Speicherstelle zugreifen und eine Operation darauf muss eine Schreiboperation sein. Zudem muss mindestens einer der Zugriffe ohne Lock passieren. Außerdem darf keiner der beiden Access Snapshots nur von einem Thread angesprochen werden. Zuletzt muss der Wert für die Thread Domäne $"$AnyThread$"$ haben, also das mindestens einer der Threads nicht der Main Thread ist \cite[vgl.][8]{racerd}. Wenn ein Race gefunden wurde, wird ein Stacktrace zurückgegeben, sodass man den Bug analysieren kann \cite[vgl.][15]{racerd}.
+
