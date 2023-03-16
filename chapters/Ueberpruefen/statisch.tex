@@ -41,7 +41,7 @@ void ownedAccess() {
 
 \subsubsection*{Access Snapshots Domänen}
 
-Die Access Snapshots Domäne nimmt relevante Informationen in einem Access Snapshot und speichert sie, sobald auf Dynamischen Speicher zugegriffen wird \cite[vlg.][11]{racerd}. Gespeichert werden \cite[vgl.][8]{racerd}:
+Die Access Snapshots Domäne nimmt relevante Informationen und speichert sie in einem \texttt{Access Snapshot}, sobald auf Dynamischen Speicher zugegriffen wird \cite[vlg.][11]{racerd}. Gespeichert werden \cite[vgl.][8]{racerd}:
 \begin{itemize}
 	\item Die Stelle im Speicher, welche aufgerufen wird.
 	\item Die Art des Zugriffs, also ob gelesen oder geschrieben wird.
@@ -52,5 +52,5 @@ Die Access Snapshots Domäne nimmt relevante Informationen in einem Access Snaps
 
 \subsubsection*{Data Races erkennen}
 
-Um Data Races mit RacerD zu erkennen werden für jedes Paar Access Snapshots mit einander verglichen. Um ein Data Race zu erzeugen müssen beide Access Snapshots auf die selbe Speicherstelle zugreifen und eine Operation darauf muss eine Schreiboperation sein. Zudem muss mindestens einer der Zugriffe ohne Lock passieren. Außerdem darf keiner der beiden Access Snapshots nur von einem Thread angesprochen werden. Zuletzt muss der Wert für die Thread Domäne $"$AnyThread$"$ haben, also das mindestens einer der Threads nicht der Main Thread ist \cite[vgl.][8]{racerd}. Wenn ein Race gefunden wurde, wird ein Stacktrace zurückgegeben, sodass man den Bug analysieren kann \cite[vgl.][15]{racerd}.
+Um Data Races mit RacerD zu erkennen, wird jedes Paar Access Snapshots miteinander verglichen. Um ein Data Race zu erzeugen müssen beide Access Snapshots auf die selbe Speicherstelle zugreifen und eine Operation auf diese Stelle muss eine Schreiboperation sein. Zudem muss mindestens einer der Zugriffe ohne Lock passieren. Außerdem darf keiner der beiden Access Snapshots nur von einem Thread angesprochen werden. Zuletzt muss der Wert für die Thread Domäne $"$AnyThread$"$ besitzen, also darf mindestens einer der Threads nicht der Main Thread sein \cite[vgl.][8]{racerd}. Wenn ein Race gefunden wurde, wird ein Stacktrace zurückgegeben, sodass man den Bug analysieren kann \cite[vgl.][15]{racerd}.
 
