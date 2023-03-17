@@ -107,8 +107,6 @@
     \list{publisher}{1}{%
       {Association for Computing Machinery}%
     }
-    \keyw{Static Analysis, Concurrent Separation Logic, Race Freedom,
-  Concurrency}
     \strng{namehash}{BS+1}
     \strng{fullhash}{BSGNOPWSI1}
     \field{labelnamesource}{author}
@@ -129,6 +127,9 @@
     }
     \field{journaltitle}{Proc. ACM Program. Lang.}
     \field{year}{2018}
+    \field{urlday}{13}
+    \field{urlmonth}{03}
+    \field{urlyear}{2023}
     \warn{\item Invalid format of field 'month'}
   \endentry
 
@@ -180,6 +181,9 @@
     }
     \field{month}{10}
     \field{year}{2010}
+    \field{urlday}{22}
+    \field{urlmonth}{12}
+    \field{urlyear}{2022}
   \endentry
 
   \entry{fekete_teaching_nodate}{inproceedings}{}
@@ -218,6 +222,9 @@
       {Madrid, Spain}%
     }
     \field{year}{2008}
+    \field{urlday}{09}
+    \field{urlmonth}{12}
+    \field{urlyear}{2022}
     \warn{\item Can't use 'location' + 'address'}
   \endentry
 
@@ -245,7 +252,6 @@
     \list{publisher}{1}{%
       {Association for Computing Machinery}%
     }
-    \keyw{Concurrency, Static Analysis, Abstract Interpretation, Race Freedom}
     \strng{namehash}{GNOPWSI1}
     \strng{fullhash}{GNOPWSI1}
     \field{labelnamesource}{author}
@@ -266,6 +272,9 @@
     }
     \field{journaltitle}{Proc. ACM Program. Lang.}
     \field{year}{2019}
+    \field{urlday}{13}
+    \field{urlmonth}{03}
+    \field{urlyear}{2023}
     \warn{\item Invalid format of field 'month'}
   \endentry
 
@@ -322,6 +331,9 @@
     \endverb
     \field{month}{05}
     \field{year}{2006}
+    \field{urlday}{09}
+    \field{urlmonth}{12}
+    \field{urlyear}{2022}
   \endentry
 
   \entry{li_efficient_2019}{inproceedings}{}
@@ -387,6 +399,9 @@
     }
     \field{month}{10}
     \field{year}{2019}
+    \field{urlday}{09}
+    \field{urlmonth}{12}
+    \field{urlyear}{2022}
   \endentry
 
   \entry{naik_effective_nodate}{inproceedings}{}
@@ -435,6 +450,9 @@
       {Ottawa, Ontario, Canada}%
     }
     \field{year}{2006}
+    \field{urlday}{19}
+    \field{urlmonth}{02}
+    \field{urlyear}{2023}
     \warn{\item Can't use 'location' + 'address'}
   \endentry
 
@@ -474,7 +492,6 @@
     \list{publisher}{1}{%
       {Association for Computing Machinery}%
     }
-    \keyw{multithreaded programming, binary code modification, race detection}
     \strng{namehash}{SS+1}
     \strng{fullhash}{SSBMNGSPAT1}
     \field{labelnamesource}{author}
@@ -498,6 +515,9 @@
     }
     \field{journaltitle}{ACM Trans. Comput. Syst.}
     \field{year}{1997}
+    \field{urlday}{19}
+    \field{urlmonth}{02}
+    \field{urlyear}{2023}
     \warn{\item Invalid format of field 'month'}
   \endentry
 
@@ -548,6 +568,9 @@
       {Dubrovnik, Croatia}%
     }
     \field{year}{2007}
+    \field{urlday}{26}
+    \field{urlmonth}{02}
+    \field{urlyear}{2023}
     \warn{\item Can't use 'location' + 'address'}
   \endentry
 \enddatalist
