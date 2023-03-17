@@ -21,7 +21,7 @@ class BankAccountA {
 \end{lstlisting}
 %\end{comment}
 
-Ein weiterer Liveness Hazard ist der Deadlock \cite[vgl.][6]{brian}. Dieser entsteht, wenn verschiedene Threads sich gegenseitig blockieren und dadurch kein Thread weitere Aufgabe ausführen kann. Ein Beispiel hierfür ist \ref{lst:deadlock}. Problem hierbei ist, dass wenn das \texttt{target} gleich dem auszuführenden BankAccountA ist, das \texttt{target} nicht gelocked werden kann in Zeile 10, da es bereits durch den Funktionsaufruf gelocked ist \cite[vgl.][122]{fekete_teaching_nodate}. 
+Ein weiterer Liveness Hazard ist der Deadlock \cite[vgl.][6]{brian}. Dieser entsteht, wenn verschiedene Threads sich gegenseitig blockieren und dadurch kein Thread weitere Aufgaben ausführen kann. Ein Beispiel hierfür ist \ref{lst:deadlock}. Problem hierbei ist, dass wenn das \texttt{target} gleich dem auszuführenden BankAccountA ist, das \texttt{target} nicht gelocked werden kann in Zeile 10, da es bereits durch den Funktionsaufruf gelocked ist \cite[vgl.][122]{fekete_teaching_nodate}. 
 \\
 %\begin{comment}
 \begin{lstlisting}[language=Java,frame=tb,caption={Deadlock Lösung \cite{fekete_teaching_nodate}}, label={lst:deadlockLösung}, numbers=left, stepnumber=1, captionpos=b, tabsize=4]
@@ -43,4 +43,4 @@ class BankAccountB {
 \end{lstlisting}
 %\end{comment}
 
-In \ref{lst:deadlockLösung} ist dieselbe Funktion dargestellt, mit dem Unterschied, dass diese keinen Deadlock erzeugt. Der Unterschied in der Klasse \texttt{BackAccountB} ist, dass am Anfang der Funktion nicht das Objekt gelocked wird und dadurch das vorher beschriebene Problem nicht mehr auftreten kann \cite[vgl.][122]{fekete_teaching_nodate}.
+In \ref{lst:deadlockLösung} ist dieselbe Funktion dargestellt, mit dem Unterschied, dass diese keinen Deadlock erzeugt. Der Unterschied in der Klasse \texttt{BankAccountB} ist, dass am Anfang der Funktion nicht das Objekt gelocked wird und dadurch das vorher beschriebene Problem nicht mehr auftreten kann \cite[vgl.][122]{fekete_teaching_nodate}.

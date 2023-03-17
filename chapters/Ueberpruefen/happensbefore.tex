@@ -10,23 +10,23 @@ In dieser Sektion wird Dynamische Race Detection durch die \acs{HB} Beziehung be
 
 \subsection{Data Collider}
 
-Data Collider ist einer der Algorithmen, welcher die \acs{HB} Beziehung ausnutzt, um Data Races zu finden. Dazu benutzt Data Collider zunächst einen Sampling Algorithmus um einen kleinen Teil an Speicher Zugriffen nimmt und diese speichert. Jene Speicherzugriffe werden daraufhin an die Konflikt Erkennung weiter gegeben, um Data Races zu finden. Zuletzt verwendet Data Collider mehrere Heuristiken, um gutartige Data Races zu entfernen \cite[vgl.][6]{erickson_effective_nodate}.  
+Data Collider ist einer der Algorithmen, welcher die \acs{HB} Beziehung ausnutzt, um Data Races zu finden. Dazu benutzt Data Collider zunächst einen Sampling Algorithmus, der einen kleinen Teil an Speicher Zugriffen nimmt und diese speichert. Jene Speicherzugriffe werden daraufhin an die Konflikt Erkennung weiter gegeben, um Data Races zu finden. Zuletzt verwendet Data Collider mehrere Heuristiken, um gutartige Data Races zu entfernen \cite[vgl.][6]{erickson_effective_nodate}.  
 
 \subsubsection*{Sampling Algorithmus}
 
-Data Collider nimmt den zu Analysierenden Programm Code als Binärdatei und schreibt alle Stellen an denen der Speicher angesprochen wird in ein Sampling Set. Aus dem Sampling Set entfernt werden dabei Anweisungen die nur den Threadlokale Stack Speicherplätze ansprechen und Synchronisierungsanweisungen. Data Collider nimmt daraufhin proben aus dem Sampling Set in dem es Breakpoints einfügt, die dann genutzt werden um Konflikte zu erkennen \cite[vgl.][6]{erickson_effective_nodate}. 
+Data Collider nimmt den zu Analysierenden Programm Code als Binärdatei und schreibt alle Stellen an denen der Speicher angesprochen wird in ein Sampling Set. Aus dem Sampling Set entfernt werden dabei Anweisungen die nur den Threadlokale Stack Speicherplätze ansprechen und Synchronisierungsanweisungen. Data Collider nimmt daraufhin Proben aus dem Sampling Set in dem es Breakpoints einfügt, die dann genutzt werden um Konflikte zu erkennen \cite[vgl.][6]{erickson_effective_nodate}. 
 
 \subsubsection*{Konflikterkennung}
 
 Konflikterkennung entsteht bei Data Collider entweder durch Data Breakpoints oder durch Reapeated Reads \cite[vgl.][7]{erickson_effective_nodate}. Data Breakpoints funktionieren über die vier von einem CPU der x86 Architektur gegebenen Data Breakpoint Register. Wenn ein Zugriff auf den Speicher eine Schreiboperation ist, sagt Data Collider dem Prozessor, dass dieser eine Falle aufstellen soll für diese Speicherstelle. Die Ausführung dieses Threads wird dann verzögert. Bei einer intialen Leseoperation wird die Falle nur ausgelöst, wenn auf die Speicherstelle mit einer Schreiboperation zugegriffen wird \cite[vgl.][7-8]{erickson_effective_nodate}.\\
 \\
-Sobald Data Collider keine Breakpoint Register mehr hat, greift der Algorithmus auf Repreated Reads zurück. Falls ein Zugriff auf den Speicher gemacht wird, wird der Thread wieder verzögert. Währenddessen wird die ganze Zeit überprüft, ob sich die Speicherstelle verändert. Wenn diese verändert wird, liegt ein Data Race vor. Jedoch ist es schwierig herauszufinden, durch welche Stelle das Data Race verursacht wurde \cite[vgl.][7-8]{erickson_effective_nodate}. 
+Sobald Data Collider keine Breakpoint Register mehr hat, greift der Algorithmus auf Repeated Reads zurück. Falls ein Zugriff auf den Speicher gemacht wird, wird der Thread wieder verzögert. Währenddessen wird die ganze Zeit überprüft, ob sich die Speicherstelle verändert. Wenn diese verändert wird, liegt ein Data Race vor. Jedoch ist es schwierig herauszufinden, durch welche Stelle das Data Race verursacht wurde \cite[vgl.][7-8]{erickson_effective_nodate}. 
 
 \subsubsection*{Umgang mit gutartigen Datenabweichungen}
 
 "Research on data-race detection has amply noted the fact that not all data races are erroneous" \cite[8]{erickson_effective_nodate}. Diese Data Races müssen aus der Ausgabe der gefundenen Bugs entfernt werden. Dazu benutzt Data Collider drei Muster, um dies zu erkennen: Statische Zähler, Safe Flag Updates und Spezielle Variablen \cite[vgl.][8]{erickson_effective_nodate}.\\
 \\
-Statische Zähler sind da, um diverse Statistiken über das Programm zu machen. Statische Zähler welche Write Only sind werden als gutartig markiert \cite[vgl.][8]{erickson_effective_nodate}. Safe Flag Updates besteht darin, dass ein Thread ein Flag Bit in einem Speicherplatz liest, während ein anderer Thread ein anderes Bit in demselben Speicherplatz aktualisiert. Jedoch gehen bei Schreib-Schreib Konflikten hierbei Informationen verloren, somit werden diese weiterhin beachtet \cite[vgl.][8]{erickson_effective_nodate}. In Windows Kernel, für den Data Collider gemacht wurde, gibt es Spezielle Variablen, bei denen Data Races erwartet werden und kein Problem darstellen. Diese Stellen werden durch eine Datenbank an Speziellen Variablen von Data Collider nicht beachtet \cite[vgl.][8]{erickson_effective_nodate}.
+Statische Zähler sind da, um diverse Statistiken über das Programm zu machen. Statische Zähler welche Write Only sind werden als gutartig markiert \cite[vgl.][8]{erickson_effective_nodate}. Safe Flag Updates besteht darin, dass ein Thread ein Flag Bit in einem Speicherplatz liest, während ein anderer Thread ein anderes Bit in demselben Speicherplatz aktualisiert. Jedoch gehen bei Schreib-Schreib Konflikten hierbei Informationen verloren, somit werden diese weiterhin beachtet \cite[vgl.][8]{erickson_effective_nodate}. Im Windows Kernel, für den Data Collider gemacht wurde, gibt es Spezielle Variablen, bei denen Data Races erwartet werden und somit kein Problem darstellen. Diese Stellen werden durch eine Datenbank an speziellen Variablen von Data Collider nicht beachtet \cite[vgl.][8]{erickson_effective_nodate}.
 
 \subsection{TSVD}
 
@@ -64,11 +64,11 @@ In \ref{lst:TSVD} dargestellt ist der Algorithmus, der verwendet wird, um Thread
 \\
 Die Funktion \texttt{OnCall} nimmt als Parameter die Id des Threads, von dem diese ausgelöst wird, die Id vom Objekt, auf welches zugegriffen wird, und die Operation Id, also welche Operation auf dem Objekt ausgeführt wird. Sobald die Methode \texttt{OnCall} von einem Thread auf ein Objekt aufgerufen wird, wird in Zeile 3 überprüft, ob eine Falle gesetzt werden soll. Wenn diese gesetzt werden soll, so wird dies umgesetzt und eine bestimmte Zeit gewartet bis die Falle aufgelöst wird. Wenn nun ein anderer Thread \texttt{OnCall} auf das selbe Objekt aufruft und einer der Operationen eine Schreib Operation war, gilt die Falle als ausgelöst und vom Programm wird dieser Bug zurück gegeben \cite[vgl.][166]{li_efficient_2019}.
 
-\subsubsection*{Implementation}
+\subsubsection*{Implementierung}
 
-Die Implementation dieses Algorithmus wurde für .NET Applikationen gemacht (\url{https://github.com/microsoft/TSVD}). Dabei wurde das Programm aufgeteilt in den \acs{TSVD} Instrumenter und \acs{TSVD} Runtime. \\ 
+Die Implementierung dieses Algorithmus wurde für .NET Applikationen gemacht (\url{https://github.com/microsoft/TSVD}). Dabei wurde das Programm aufgeteilt in den \acs{TSVD} Instrumenter und \acs{TSVD} Runtime. \\ 
 \\
-Der Instrumenter ist dabei ein \ac{CLI} Tool oder in Visual Studio ein Post-Build Step. Als Eingabe nimmt das Programm dabei die Binärdatei eines Programms und eine Liste an Thread unsicheren \ac{API}s. Der Instumenter ersetzt dann die Aufrufe auf die Thread unsicheren \acs{API}s mit Proxy Aufrufen. Wie diese Proxy Aufrufe funktionieren, ist in \ref{lst:TSVDImpl} dargestellt. \cite[vgl.][170]{li_efficient_2019}. \acs{TSVD} Runtime hingegen implementiert die \texttt{OnCall} Methode und protokolliert den Kontext, wenn ein Bug gefunden wird \cite[vgl.][170-171]{li_efficient_2019}.
+Der Instrumenter ist dabei ein \ac{CLI} Tool oder in Visual Studio ein Post-Build Step. Als Eingabe nimmt das Programm dabei die Binärdatei eines Programms und eine Liste an Thread unsicheren \ac{API}s. Der Instrumenter ersetzt dann die Aufrufe auf die Thread unsicheren \acs{API}s mit Proxy Aufrufen. Wie diese Proxy Aufrufe funktionieren, ist in \ref{lst:TSVDImpl} dargestellt. \cite[vgl.][170]{li_efficient_2019}. \acs{TSVD} Runtime hingegen implementiert die \texttt{OnCall} Methode und protokolliert den Kontext, wenn ein Bug gefunden wird \cite[vgl.][170-171]{li_efficient_2019}.
 \\
 %\begin{comment}
 \begin{lstlisting}[language=Java,frame=tb,caption={\acs{TSVD} Proxy Aufrufe}, label={lst:TSVDImpl}, numbers=left, stepnumber=1, captionpos=b, tabsize=4]

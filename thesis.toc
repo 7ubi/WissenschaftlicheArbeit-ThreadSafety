@@ -12,7 +12,7 @@
 \contentsline {chapter}{\numberline {3}{Theoretische Grundlagen}}{5}{chapter.3}%
 \contentsline {section}{\numberline {3.1}{Threads und Multithreading}}{5}{section.3.1}%
 \contentsline {section}{\numberline {3.2}{Thread Safety}}{5}{section.3.2}%
-\contentsline {chapter}{\numberline {4}{Thread Safety Probeleme überprüfen}}{7}{chapter.4}%
+\contentsline {chapter}{\numberline {4}{Thread Safety Probleme überprüfen}}{7}{chapter.4}%
 \contentsline {section}{\numberline {4.1}{Dynamische Race Detection durch die Happens Before Beziehung}}{7}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}{Data Collider}}{7}{subsection.4.1.1}%
 \contentsline {subsection}{\numberline {4.1.2}{TSVD}}{8}{subsection.4.1.2}%
