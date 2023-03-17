@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.28)  17 MAR 2023 13:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.28)  17 MAR 2023 14:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1616,10 +1616,32 @@ File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
 
 
 ]
+\openout2 = `frontbackmatter/Declaration.aux'.
+
+
+(./frontbackmatter/Declaration.tex
+<gfx/unterschrift.png, id=22, 798.985pt x 220.825pt>
+File: gfx/unterschrift.png Graphic file (type png)
+<use gfx/unterschrift.png>
+Package pdftex.def Info: gfx/unterschrift.png  used on input line 29.
+(pdftex.def)             Requested size: 155.0029pt x 42.84013pt.
+
+Overfull \hbox (12.73912pt too wide) in paragraph at lines 29--30
+[]|[]| 
+ []
+
+) [3
+
+
+
+
+
+
+
+ <./gfx/unterschrift.png>]
 \openout2 = `frontbackmatter/AbstractDE.aux'.
 
-
-(./frontbackmatter/AbstractDE.tex)
+ (./frontbackmatter/AbstractDE.tex)
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
 (Font)              scaled to size 10.42007pt on input line 78.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
@@ -1628,7 +1650,7 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 10.42007pt on input line 78.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 7.91925pt on input line 78.
- [3
+ [4
 
 
 
@@ -1639,11 +1661,11 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 ]
 \openout2 = `frontbackmatter/Contents.aux'.
 
- (./frontbackmatter/Contents.tex
+
+(./frontbackmatter/Contents.tex
 Package tocbasic Info: character protrusion at toc deactivated on input line 11
 .
-
-(./thesis.toc
+ (./thesis.toc
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/pplj/m/sc/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -1651,7 +1673,7 @@ Package microtype Info: Character `029' is missing
 \tf@toc=\write5
 \openout5 = `thesis.toc'.
 
- [4
+ [5
 
 
 
@@ -1662,7 +1684,8 @@ Package microtype Info: Character `029' is missing
 ])
 \openout2 = `frontbackmatter/Figures.aux'.
 
- (./frontbackmatter/Figures.tex
+
+(./frontbackmatter/Figures.tex
 1: section
 1: chapter
 1: chapter
@@ -1673,7 +1696,7 @@ Package tocbasic Info: character protrusion at lof deactivated on input line 9.
 \tf@lof=\write6
 \openout6 = `thesis.lof'.
 
- [5
+ [6
 
 
 
@@ -1697,7 +1720,7 @@ Package tocbasic Info: character protrusion at lot deactivated on input line 9.
 \tf@lot=\write7
 \openout7 = `thesis.lot'.
 
- [6
+ [7
 
 
 
@@ -1719,7 +1742,7 @@ Package tocbasic Info: character protrusion at lot deactivated on input line 9.
 \tf@lol=\write8
 \openout8 = `thesis.lol'.
 
- [7
+ [8
 
 
 
@@ -1737,7 +1760,7 @@ Package tocbasic Info: character protrusion at lot deactivated on input line 9.
 1: chapter
 1: chapter
 1: section
-[8
+[9
 
 
 
@@ -1897,7 +1920,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--74
 
  []
 
-<gfx/TSVDvDataCollider.png, id=282, 478.1865pt x 217.41225pt>
+<gfx/TSVDvDataCollider.png, id=290, 478.1865pt x 217.41225pt>
 File: gfx/TSVDvDataCollider.png Graphic file (type png)
 <use gfx/TSVDvDataCollider.png>
 Package pdftex.def Info: gfx/TSVDvDataCollider.png  used on input line 99.
@@ -1913,7 +1936,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--37
  []
 
 [11 <./gfx/TSVDvDataCollider.png>]
-<gfx/eraser_state.png, id=325, 660.4675pt x 550.055pt>
+<gfx/eraser_state.png, id=333, 660.4675pt x 550.055pt>
 File: gfx/eraser_state.png Graphic file (type png)
 <use gfx/eraser_state.png>
 Package pdftex.def Info: gfx/eraser_state.png  used on input line 41.
@@ -1999,12 +2022,17 @@ ne-ry, 2006, 308^^U319.
 
 
 ]) [20] (./thesis.aux (./frontbackmatter/Titlepage.aux)
-(./frontbackmatter/Titleback.aux) (./frontbackmatter/AbstractDE.aux)
-(./frontbackmatter/Contents.aux) (./frontbackmatter/Figures.aux)
-(./frontbackmatter/Tables.aux) (./frontbackmatter/Listings.aux)
-(./frontbackmatter/Acronyms.aux)
+(./frontbackmatter/Titleback.aux) (./frontbackmatter/Declaration.aux)
+(./frontbackmatter/AbstractDE.aux) (./frontbackmatter/Contents.aux)
+(./frontbackmatter/Figures.aux) (./frontbackmatter/Tables.aux)
+(./frontbackmatter/Listings.aux) (./frontbackmatter/Acronyms.aux)
 (./chapters/StandderForschung/standderforschung.aux)
-(./frontbackmatter/Bibliography.aux))
+(./frontbackmatter/Bibliography.aux)
+
+Package mparhack Warning: Marginpars may have changed.
+(mparhack)                Rerun to get them right.
+
+)
 
  *File List*
  silence.sty    2012/07/02 v1.5b Selective filtering of warnings and error mess
@@ -2200,6 +2228,8 @@ gfx/logo_h-da_rot.pdf
  ot1zplm.fd    2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 frontbackmatter/Titleback.tex
  ts1pplj.fd    2004/09/06 font definitions for TS1/pplj.
+frontbackmatter/Declaration.tex
+gfx/unterschrift.png
 frontbackmatter/AbstractDE.tex
 frontbackmatter/Contents.tex
 frontbackmatter/Figures.tex
@@ -2237,13 +2267,13 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 ### simple group (level 1) entered at line 57 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 33979 strings out of 476024
- 643491 string characters out of 5794016
+ 34021 strings out of 476024
+ 644962 string characters out of 5794016
  1953382 words of memory out of 5000000
- 53554 multiletter control sequences out of 15000+600000
+ 53587 multiletter control sequences out of 15000+600000
  594367 words of font info for 155 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 108i,22n,119p,10622b,14592s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,22n,119p,10622b,14623s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{abk\374rzungsverzeichnis.1} has been referenced but
  does not exist, replaced by a fixed one
@@ -2255,10 +2285,10 @@ c/fpl/fplrij8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/bera/fvmr8a.p
 fb><c:/texlive/2022/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><c:/texlive/
 2022/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/texlive/2022/texmf-dist
 /fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on thesis.pdf (28 pages, 246730 bytes).
+Output written on thesis.pdf (29 pages, 269164 bytes).
 PDF statistics:
- 640 PDF objects out of 1000 (max. 8388607)
- 575 compressed objects within 6 object streams
- 165 named destinations out of 1000 (max. 500000)
- 20216 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 650 PDF objects out of 1000 (max. 8388607)
+ 583 compressed objects within 6 object streams
+ 168 named destinations out of 1000 (max. 500000)
+ 20229 words of extra memory for PDF output out of 20736 (max. 10000000)
 
