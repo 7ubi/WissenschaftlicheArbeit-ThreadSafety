@@ -1,6 +1,6 @@
 \section{Dynamische Race Detection durch Lockset Analyse}
 
-In dieser Sektion wird Dynamische Race Detection durch Lockset Analyse betrachtet und anhand von Eraser nähergebracht. Auf einem hohen Level überprüft Eraser, ob geteilter Speicherzugriff einem konsistentem Lock Mechanismus geschützt ist. Auf Locks wird in Kapitel \hyperref[sec:loesen]{5} weiter eingegangen \cite[vgl.][392]{savage_eraser_nodate}.
+In dieser Sektion wird Dynamische Race Detection durch Lockset Analyse betrachtet und anhand von Eraser nähergebracht. Auf einem hohen Level überprüft Eraser, ob geteilter Speicherzugriff durch einen konsistenten Lock Mechanismus geschützt ist. Auf Locks wird in Kapitel \hyperref[sec:loesen]{5} weiter eingegangen \cite[vgl.][392]{savage_eraser_nodate}.
 
 \subsection*{Eraser}
 
@@ -46,8 +46,8 @@ In \ref{fig:eraserState} dargestellt sind die Zustände, welche eine geteilte Va
 
 \subsection*{Leistung}
 
-\textcite[vgl.][400]{savage_eraser_nodate} beschreiben, dass Leistung nicht das primäre Ziel bei Eraser war und dementsprechend noch viele Stellen Verbesserungsmöglichkeiten. 
-
+\textcite[vgl.][400]{savage_eraser_nodate} beschreiben, dass Leistung nicht das primäre Ziel bei Eraser war und dementsprechend noch viele Stellen Verbesserungsmöglichkeiten.\\ 
+\\
 Programme, auf die Eraser angewendet wird, sind um einen Faktor von 10 bis 30 langsamer. Zudem kann Thread Scheduling einen Einfluss auf das Ergebnis von Eraser haben kann \cite[vgl.][400]{savage_eraser_nodate}.   
 
 %\subsection{Auswertung}

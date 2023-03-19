@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.28)  17 MAR 2023 14:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.11)  19 MAR 2023 20:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -413,7 +413,7 @@ Package csquotes Info: ... configuration file loaded successfully.
 File: csquotes.cfg 
 ))
 (c:/texlive/2022/texmf-dist/tex/latex/biblatex/biblatex.sty
-Package: biblatex 2022/07/12 v3.18b programmable bibliographies (PK/MW)
+Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
 
 (c:/texlive/2022/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
@@ -486,7 +486,7 @@ Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
 (c:/texlive/2022/texmf-dist/tex/latex/biblatex/blx-dm.def
-File: blx-dm.def 2022/07/12 v3.18b biblatex localization (PK/MW)
+File: blx-dm.def 2023/03/05 v3.19 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'numeric-comp.dbx' not found.
@@ -578,23 +578,23 @@ Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
 (c:/texlive/2022/texmf-dist/tex/latex/biblatex/blx-compat.def
-File: blx-compat.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
+File: blx-compat.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load BibTeX backend compatibility...
 Package biblatex Info: ... file 'blx-bibtex.def' found.
 
 (c:/texlive/2022/texmf-dist/tex/latex/biblatex/blx-bibtex.def
-File: blx-bibtex.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
+File: blx-bibtex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
 
 
-Package biblatex Warning: Using fall-back BibTeX(8) backend:
+Package biblatex Warning: Using fall-back bibtex backend:
 (biblatex)                functionality may be reduced/unavailable.
 
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (c:/texlive/2022/texmf-dist/tex/latex/biblatex/biblatex.def
-File: biblatex.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
+File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
 \c@textcitecount=\count407
 \c@textcitetotal=\count408
 \c@textcitemaxnames=\count409
@@ -613,7 +613,7 @@ Package biblatex Info: Trying to load natbib compatibility...
 Package biblatex Info: ... file 'blx-natbib.def' found.
 
 (c:/texlive/2022/texmf-dist/tex/latex/biblatex/blx-natbib.def
-File: blx-natbib.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
+File: blx-natbib.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
 Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
  overwriting.
 )
@@ -621,17 +621,17 @@ Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.bbx' found.
 
 (c:/texlive/2022/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
-File: numeric-comp.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
+File: numeric-comp.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
 
 (c:/texlive/2022/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
-File: numeric.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
+File: numeric.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
 (c:/texlive/2022/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
-File: standard.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
+File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
 \c@bbx:relatedcount=\count416
 \c@bbx:relatedtotal=\count417
 )))
@@ -639,7 +639,7 @@ Package biblatex Info: Trying to load citation style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.cbx' found.
 
 (c:/texlive/2022/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
-File: numeric-comp.cbx 2022/07/12 v3.18b biblatex citation style (PK/MW)
+File: numeric-comp.cbx 2023/03/05 v3.19 biblatex citation style (PK/MW)
 \c@cbx@tempcnta=\count418
 \c@cbx@tempcntb=\count419
 \c@cbx@tempcntc=\count420
@@ -682,8 +682,7 @@ Package biblatex Info: ... and expl3
 (c:/texlive/2022/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2023-02-02 L3 Experimental document command parser
 )
-Package: blx-case-expl3 2022/07/12 v3.18b expl3 case changing code for biblatex
-
+Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
 ))
 (c:/texlive/2022/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2022/04/08 v2.17n AMS math features
@@ -1115,29 +1114,29 @@ LaTeX Font Info:    Trying to load font information for U+eur on input line 208
 File: ueur.fd 2013/01/14 v3.01 Euler Roman
 )
 (c:/texlive/2022/texmf-dist/tex/latex/microtype/microtype.sty
-Package: microtype 2022/06/23 v3.0f Micro-typographical refinements (RS)
+Package: microtype 2023/03/06 v3.1 Micro-typographical refinements (RS)
 \MT@toks=\toks44
 \MT@tempbox=\box62
 \MT@count=\count468
-LaTeX Info: Redefining \noprotrusionifhmode on input line 1045.
-LaTeX Info: Redefining \leftprotrusion on input line 1046.
-LaTeX Info: Redefining \rightprotrusion on input line 1056.
-LaTeX Info: Redefining \textls on input line 1234.
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1060.
+LaTeX Info: Redefining \leftprotrusion on input line 1061.
+\MT@prot@toks=\toks45
+LaTeX Info: Redefining \rightprotrusion on input line 1079.
+LaTeX Info: Redefining \textls on input line 1355.
 \MT@outer@kern=\dimen188
-LaTeX Info: Redefining \textmicrotypecontext on input line 1858.
+LaTeX Info: Redefining \textmicrotypecontext on input line 1975.
 \MT@listname@count=\count469
 
 (c:/texlive/2022/texmf-dist/tex/latex/microtype/microtype-pdftex.def
-File: microtype-pdftex.def 2022/06/23 v3.0f Definitions specific to pdftex (RS)
-
-LaTeX Info: Redefining \lsstyle on input line 900.
-LaTeX Info: Redefining \lslig on input line 900.
+File: microtype-pdftex.def 2023/03/06 v3.1 Definitions specific to pdftex (RS)
+LaTeX Info: Redefining \lsstyle on input line 903.
+LaTeX Info: Redefining \lslig on input line 903.
 \MT@outer@space=\skip105
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
 (c:/texlive/2022/texmf-dist/tex/latex/microtype/microtype.cfg
-File: microtype.cfg 2022/06/23 v3.0f microtype main configuration file (RS)
+File: microtype.cfg 2023/03/06 v3.1 microtype main configuration file (RS)
 ))
 Package classicthesis Info: A4 paper, Palatino or other on input line 277.
 Package typearea Info: These are the values describing the layout:
@@ -1208,7 +1207,7 @@ Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \aftertitleunit=\skip107
 \ttl@plus=\dimen258
 \ttl@minus=\dimen259
-\ttl@toksa=\toks45
+\ttl@toksa=\toks46
 \titlewidth=\dimen260
 \titlewidthlast=\dimen261
 \titlewidthfirst=\dimen262
@@ -1330,9 +1329,10 @@ LaTeX Font Info:    Trying to load font information for T1+pplj on input line 6
 File: t1pplj.fd 2004/09/06 font definitions for T1/pplj.
 ) (./thesis.aux
 (./frontbackmatter/Titlepage.aux) (./frontbackmatter/Titleback.aux)
-(./frontbackmatter/AbstractDE.aux) (./frontbackmatter/Contents.aux)
-(./frontbackmatter/Figures.aux) (./frontbackmatter/Tables.aux)
-(./frontbackmatter/Listings.aux) (./frontbackmatter/Acronyms.aux)
+(./frontbackmatter/Declaration.aux) (./frontbackmatter/AbstractDE.aux)
+(./frontbackmatter/Contents.aux) (./frontbackmatter/Figures.aux)
+(./frontbackmatter/Tables.aux) (./frontbackmatter/Listings.aux)
+(./frontbackmatter/Acronyms.aux)
 (./chapters/StandderForschung/standderforschung.aux)
 (./frontbackmatter/Bibliography.aux))
 \openout1 = `thesis.aux'.
@@ -1391,35 +1391,35 @@ Package biblatex Info: Trying to load language 'american'...
 Package biblatex Info: ... file 'american.lbx' found.
 
 (c:/texlive/2022/texmf-dist/tex/latex/biblatex/lbx/american.lbx
-File: american.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
+File: american.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
 (c:/texlive/2022/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-File: english.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
+File: english.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
 (c:/texlive/2022/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-File: english.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
+File: english.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
 ))
 Package biblatex Info: Trying to load language 'ngerman'...
 Package biblatex Info: ... file 'ngerman.lbx' found.
 
 (c:/texlive/2022/texmf-dist/tex/latex/biblatex/lbx/ngerman.lbx
-File: ngerman.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
+File: ngerman.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
 Package biblatex Info: Trying to load language 'german'...
 Package biblatex Info: ... file 'german.lbx' found.
 
 (c:/texlive/2022/texmf-dist/tex/latex/biblatex/lbx/german.lbx
-File: german.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
+File: german.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load language 'german'...
 Package biblatex Info: ... file 'german.lbx' found.
 
 (c:/texlive/2022/texmf-dist/tex/latex/biblatex/lbx/german.lbx
-File: german.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
+File: german.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
 ))
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Data encoding 'ascii' specified.
@@ -1472,12 +1472,12 @@ Package biblatex Info: Reference segment=0 on input line 61.
 \scratchbox=\box64
 \nofMPsegments=\count478
 \nofMParguments=\count479
-\everyMPshowfont=\toks46
+\everyMPshowfont=\toks47
 \MPscratchCnt=\count480
 \MPscratchDim=\dimen264
 \MPnumerator=\count481
 \makeMPintoPDFobject=\count482
-\everyMPtoPDFconversion=\toks47
+\everyMPtoPDFconversion=\toks48
 ) (c:/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1522,6 +1522,7 @@ Package microtype Info: Applying patch `eqnum' on input line 61.
 
 Package microtype Warning: Unable to apply patch `footnote' on input line 61.
 
+Package microtype Info: Applying patch `verbatim' on input line 61.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1821,25 +1822,14 @@ Overfull \hbox (5.24959pt too wide) in paragraph at lines 3--1
  des sel-ben Pro-gramms
  []
 
-) (./chapters/Einleitung/gliederung.tex)
-Overfull \hbox (3.28955pt too wide) in paragraph at lines 3--101
-\T1/pplj/m/n/10.95 Thread Sa-fe-ty er-klärt. Da-zu zäh-len auch die Grund-la-ge
-n zum The-ma Threads
- []
+) (./chapters/Einleitung/gliederung.tex) [2
 
 
-Overfull \hbox (3.11436pt too wide) in paragraph at lines 3--101
-\T1/pplj/m/n/10.95 und Mul-ti-threa-ding. Als Nächs-tes wer-den ver-schie-de-ne
- Me-tho-den zum Über-
- []
-
-[2
-
-
-] [3]
+]
 \openout2 = `chapters/StandderForschung/standderforschung.aux'.
 
- (./chapters/StandderForschung/standderforschung.tex
+
+(./chapters/StandderForschung/standderforschung.tex
 Kapitel 2.
 Package acronym Info: Label `acro:HB' newly defined as it shall be overridden
 although it is yet undefined on input line 3.
@@ -1848,7 +1838,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--102
 
  []
 
-[4
+[3
 
 
 
@@ -1868,23 +1858,23 @@ nput line 10.
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
 (Font)              scaled to size 8.50006pt on input line 10.
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--24
+Underfull \hbox (badness 10000) in paragraph at lines 19--24
 
  []
 
-[5
+[4
 
 
 
 
 ])
 Kapitel 4.
-[6] (./chapters/Ueberpruefen/happensbefore.tex
+[5] (./chapters/Ueberpruefen/happensbefore.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--4
 
  []
 
-[7
+[6
 
 
 ]
@@ -1900,12 +1890,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--30
 Package acronym Info: Label `acro:TSVD' newly defined as it shall be overridden
 
 although it is yet undefined on input line 33.
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 63--66
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 62--66
 
  []
 
-[9]
+[8]
 Package acronym Info: Label `acro:CLI' newly defined as it shall be overridden
 although it is yet undefined on input line 71.
 Package acronym Info: Label `acro:API' newly defined as it shall be overridden
@@ -1920,12 +1910,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--74
 
  []
 
-<gfx/TSVDvDataCollider.png, id=290, 478.1865pt x 217.41225pt>
+<gfx/TSVDvDataCollider.png, id=286, 478.1865pt x 217.41225pt>
 File: gfx/TSVDvDataCollider.png Graphic file (type png)
 <use gfx/TSVDvDataCollider.png>
 Package pdftex.def Info: gfx/TSVDvDataCollider.png  used on input line 99.
 (pdftex.def)             Requested size: 296.00113pt x 134.58519pt.
-) (./chapters/Ueberpruefen/lockset.tex [10]
+) (./chapters/Ueberpruefen/lockset.tex [9]
 Underfull \hbox (badness 10000) in paragraph at lines 7--10
 
  []
@@ -1935,14 +1925,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--37
 
  []
 
-[11 <./gfx/TSVDvDataCollider.png>]
-<gfx/eraser_state.png, id=333, 660.4675pt x 550.055pt>
+[10 <./gfx/TSVDvDataCollider.png>]
+<gfx/eraser_state.png, id=329, 660.4675pt x 550.055pt>
 File: gfx/eraser_state.png Graphic file (type png)
 <use gfx/eraser_state.png>
 Package pdftex.def Info: gfx/eraser_state.png  used on input line 41.
 (pdftex.def)             Requested size: 185.0pt x 154.07309pt.
-) (./chapters/Ueberpruefen/statisch.tex
-[12 <./gfx/eraser_state.png>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--52
+
+ []
+
+) (./chapters/Ueberpruefen/statisch.tex [11 <./gfx/eraser_state.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 22--28
 
  []
@@ -1952,14 +1946,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--28
 
  []
 
-[13]
+[12]
 Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
  []
 
 )
 Kapitel 5.
-[14] [15] (./chapters/Loesen/synchronized.tex
+[13] [14] (./chapters/Loesen/synchronized.tex
 Underfull \hbox (badness 10000) in paragraph at lines 7--12
 
  []
@@ -1970,22 +1964,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--12
  []
 
 ) (./chapters/Loesen/liveness.tex
-Overfull \hbox (5.7174pt too wide) in paragraph at lines 3--4
-\T1/pplj/m/n/10.95 Ein Pro-blem, dass durch schlech-te Syn-chro-ni-sa-ti-on auf
--tre-ten kann, sind Liven-
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
  []
 
-[16
+[15
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 24--27
+Underfull \hbox (badness 10000) in paragraph at lines 23--27
 
  []
 
 )
 Kapitel 6.
-[17] (./chapters/Zusammenfassung/fazit.tex)
+[16] [17] (./chapters/Zusammenfassung/fazit.tex)
 (./chapters/Zusammenfassung/ausblick.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--1
 
@@ -2027,12 +2020,7 @@ ne-ry, 2006, 308^^U319.
 (./frontbackmatter/Figures.aux) (./frontbackmatter/Tables.aux)
 (./frontbackmatter/Listings.aux) (./frontbackmatter/Acronyms.aux)
 (./chapters/StandderForschung/standderforschung.aux)
-(./frontbackmatter/Bibliography.aux)
-
-Package mparhack Warning: Marginpars may have changed.
-(mparhack)                Rerun to get them right.
-
-)
+(./frontbackmatter/Bibliography.aux))
 
  *File List*
  silence.sty    2012/07/02 v1.5b Selective filtering of warnings and error mess
@@ -2093,23 +2081,23 @@ csquotes.sty    2022-09-14 v5.2n context-sensitive quotations (JAW)
 etoolbox.sty    2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 csquotes.def    2022-09-14 v5.2n csquotes generic definitions (JAW)
 csquotes.cfg    
-biblatex.sty    2022/07/12 v3.18b programmable bibliographies (PK/MW)
+biblatex.sty    2023/03/05 v3.19 programmable bibliographies (PK/MW)
   logreq.sty    2010/08/04 v1.0 xml request logger
   logreq.def    2010/08/04 v1.0 logreq spec v1.0
   ifthen.sty    2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
-  blx-dm.def    2022/07/12 v3.18b biblatex localization (PK/MW)
-blx-compat.def    2022/07/12 v3.18b biblatex compatibility (PK/MW)
-blx-bibtex.def    2022/07/12 v3.18b biblatex compatibility (PK/MW)
-biblatex.def    2022/07/12 v3.18b biblatex compatibility (PK/MW)
-blx-natbib.def    2022/07/12 v3.18b biblatex compatibility (PK/MW)
-standard.bbx    2022/07/12 v3.18b biblatex bibliography style (PK/MW)
- numeric.bbx    2022/07/12 v3.18b biblatex bibliography style (PK/MW)
-numeric-comp.bbx    2022/07/12 v3.18b biblatex bibliography style (PK/MW)
-numeric-comp.cbx    2022/07/12 v3.18b biblatex citation style (PK/MW)
+  blx-dm.def    2023/03/05 v3.19 biblatex localization (PK/MW)
+blx-compat.def    2023/03/05 v3.19 biblatex compatibility (PK/MW)
+blx-bibtex.def    2023/03/05 v3.19 biblatex compatibility (PK/MW)
+biblatex.def    2023/03/05 v3.19 biblatex compatibility (PK/MW)
+blx-natbib.def    2023/03/05 v3.19 biblatex compatibility (PK/MW)
+standard.bbx    2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+ numeric.bbx    2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+numeric-comp.bbx    2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+numeric-comp.cbx    2023/03/05 v3.19 biblatex citation style (PK/MW)
 biblatex.cfg    
    expl3.sty    2023-02-22 L3 programming layer (loader) 
 l3backend-pdftex.def    2023-01-16 L3 backend support: PDF output (pdfTeX)
-blx-case-expl3.sty    2022/07/12 v3.18b expl3 case changing code for biblatex
+blx-case-expl3.sty    2023/03/05 v3.19 expl3 case changing code for biblatex
   xparse.sty    2023-02-02 L3 Experimental document command parser
  amsmath.sty    2022/04/08 v2.17n AMS math features
  amstext.sty    2021/08/26 v2.01 AMS text
@@ -2185,9 +2173,9 @@ dvipsnam.def    2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 mathpazo.sty    2020/03/25 PSNFSS-v9.3 Palatino w/ Pazo Math (D.Puga, WaS) 
 beramono.sty    2004/01/31 (WaS)
     ueur.fd    2013/01/14 v3.01 Euler Roman
-microtype.sty    2022/06/23 v3.0f Micro-typographical refinements (RS)
-microtype-pdftex.def    2022/06/23 v3.0f Definitions specific to pdftex (RS)
-microtype.cfg    2022/06/23 v3.0f microtype main configuration file (RS)
+microtype.sty    2023/03/06 v3.1 Micro-typographical refinements (RS)
+microtype-pdftex.def    2023/03/06 v3.1 Definitions specific to pdftex (RS)
+microtype.cfg    2023/03/06 v3.1 microtype main configuration file (RS)
 booktabs.sty    2020/01/12 v1.61803398 Publication quality tables
 textcase.sty    2022/07/10 v1.03 Text only upper/lower case changing (DPC)
 scrlayer-scrpage.sty    2022/10/12 v3.38 KOMA-Script package (end user interfac
@@ -2202,10 +2190,10 @@ titlesec.sty    2021/07/05 v2.14 Sectioning titles
   thesis.out
 bookmark.sty    2020-11-06 v1.29 PDF bookmarks (HO)
 bkm-pdftex.def    2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
- english.lbx    2022/07/12 v3.18b biblatex localization (PK/MW)
-american.lbx    2022/07/12 v3.18b biblatex localization (PK/MW)
-  german.lbx    2022/07/12 v3.18b biblatex localization (PK/MW)
- ngerman.lbx    2022/07/12 v3.18b biblatex localization (PK/MW)
+ english.lbx    2023/03/05 v3.19 biblatex localization (PK/MW)
+american.lbx    2023/03/05 v3.19 biblatex localization (PK/MW)
+  german.lbx    2023/03/05 v3.19 biblatex localization (PK/MW)
+ ngerman.lbx    2023/03/05 v3.19 biblatex localization (PK/MW)
   thesis.bbl
 supp-pdf.mkii
 epstopdf-base.sty    2020-01-24 v2.11 Base part for package epstopdf
@@ -2267,13 +2255,13 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 ### simple group (level 1) entered at line 57 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 34021 strings out of 476024
- 644962 string characters out of 5794016
+ 34172 strings out of 476024
+ 646519 string characters out of 5794016
  1953382 words of memory out of 5000000
- 53587 multiletter control sequences out of 15000+600000
- 594367 words of font info for 155 fonts, out of 8000000 for 9000
+ 53739 multiletter control sequences out of 15000+600000
+ 592911 words of font info for 152 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 108i,22n,119p,10622b,14623s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,22n,119p,10622b,14633s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{abk\374rzungsverzeichnis.1} has been referenced but
  does not exist, replaced by a fixed one
@@ -2285,7 +2273,7 @@ c/fpl/fplrij8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/bera/fvmr8a.p
 fb><c:/texlive/2022/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><c:/texlive/
 2022/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/texlive/2022/texmf-dist
 /fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on thesis.pdf (29 pages, 269164 bytes).
+Output written on thesis.pdf (29 pages, 269159 bytes).
 PDF statistics:
  650 PDF objects out of 1000 (max. 8388607)
  583 compressed objects within 6 object streams
