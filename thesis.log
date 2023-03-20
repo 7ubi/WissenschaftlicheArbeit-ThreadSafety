@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.28)  20 MAR 2023 13:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.28)  20 MAR 2023 13:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1905,7 +1905,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 67--72
 
  []
 
-<gfx/TSVDvDataCollider.png, id=286, 478.1865pt x 217.41225pt>
+<gfx/TSVDvDataCollider.png, id=292, 478.1865pt x 217.41225pt>
 File: gfx/TSVDvDataCollider.png Graphic file (type png)
 <use gfx/TSVDvDataCollider.png>
 Package pdftex.def Info: gfx/TSVDvDataCollider.png  used on input line 97.
@@ -1921,7 +1921,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--37
  []
 
 [10 <./gfx/TSVDvDataCollider.png>]
-<gfx/eraser_state.png, id=329, 660.4675pt x 550.055pt>
+<gfx/eraser_state.png, id=335, 660.4675pt x 550.055pt>
 File: gfx/eraser_state.png Graphic file (type png)
 <use gfx/eraser_state.png>
 Package pdftex.def Info: gfx/eraser_state.png  used on input line 41.
@@ -2268,10 +2268,10 @@ c/fpl/fplrij8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/bera/fvmr8a.p
 fb><c:/texlive/2022/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><c:/texlive/
 2022/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/texlive/2022/texmf-dist
 /fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on thesis.pdf (28 pages, 283713 bytes).
+Output written on thesis.pdf (28 pages, 284151 bytes).
 PDF statistics:
- 646 PDF objects out of 1000 (max. 8388607)
- 580 compressed objects within 6 object streams
+ 652 PDF objects out of 1000 (max. 8388607)
+ 584 compressed objects within 6 object streams
  167 named destinations out of 1000 (max. 500000)
  20229 words of extra memory for PDF output out of 20736 (max. 10000000)
 
