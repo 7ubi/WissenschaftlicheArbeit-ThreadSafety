@@ -1,10 +1,10 @@
 \label{sec:loesen}
 
-Diese Sektion beschäftigt sich damit, wie die zuvor gefundenen Thread Safety Verstöße behoben werden können. Die Erklärung wird Beispielhaft in Java gemacht. Für andere Programmiersprachen gibt es aber ähnliche Methoden, welche man benutzen kann um diese Fehler zu beheben.
+Diese Kapitel beschäftigt sich damit, wie die zuvor gefundenen Thread Safety Verstöße behoben werden können. Die Erklärung wird Beispielhaft in Java gemacht. Für andere Programmiersprachen gibt es aber ähnliche Methoden, welche man benutzen kann um diese Fehler zu beheben.
 
 \section{Synchronized}
 
- Diese Sektion wird sich mit Synchronisierung in Java beschäftigen. Java bietet mehrere Optionen zum Lösen der Verstöße. Zum einen stellt die Sprache seit Java 5 die \texttt{java.util.concurrent} Bibliothek zur Verfügung. Zum andern wird das \texttt{synchronized} keyword gestellt, auf welches sich diese Arbeit fokussieren wird \cite[vgl.][121]{fekete_teaching_nodate}. \\
+Java bietet mehrere Optionen zum Lösen der Verstöße. Zum einen stellt die Sprache seit Java 5 die \texttt{java.util.concurrent} Bibliothek zur Verfügung. Zum andern wird das \texttt{synchronized} keyword gestellt, auf welches sich diese Arbeit fokussieren wird \cite[vgl.][121]{fekete_teaching_nodate}. \\
 \\
  Um das \texttt{synchronized} keyword zu erläutern wird das Beispiel, aus den \hyperref[sec:threads]{Theoretische Grundlagen}, \ref{lst:threadSafety}. In \ref{lst:threadSafetySolved} wird eine Klasse beschrieben, die dieselbe Funktionalität wie die Klasse in \ref{lst:threadSafety} hat. Der Unterschied zwischen den Klassen ist, dass \ref{lst:threadSafetySolved} Thread sicher ist und somit von mehreren Threads gleichzeitig aufgerufen werden kann, ohne das Problem entstehen \cite[vgl.][5-6]{brian}. 
 \\

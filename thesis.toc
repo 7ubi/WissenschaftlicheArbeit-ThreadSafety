@@ -21,9 +21,9 @@
 \contentsline {chapter}{\numberline {5}{Lösen von Thread Safety Problemen}}{15}{chapter.5}%
 \contentsline {section}{\numberline {5.1}{Synchronized}}{15}{section.5.1}%
 \contentsline {section}{\numberline {5.2}{Liveness Hazards}}{15}{section.5.2}%
-\contentsline {chapter}{\numberline {6}{Zusammenfassung}}{18}{chapter.6}%
-\contentsline {section}{\numberline {6.1}{Fazit}}{18}{section.6.1}%
-\contentsline {section}{\numberline {6.2}{Ausblick}}{18}{section.6.2}%
+\contentsline {chapter}{\numberline {6}{Zusammenfassung}}{17}{chapter.6}%
+\contentsline {section}{\numberline {6.1}{Fazit}}{17}{section.6.1}%
+\contentsline {section}{\numberline {6.2}{Ausblick}}{17}{section.6.2}%
 \vspace {\beforebibskip }
-\contentsline {chapter}{\numberline {}{Literatur}}{19}{section*.8}%
+\contentsline {chapter}{\numberline {}{Literatur}}{18}{section*.8}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

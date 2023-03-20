@@ -1,6 +1,6 @@
 \section{Liveness Hazards}
 
-Diese Sektion wird sich mit den Problemen die durch Synchronisierung entstehen können beschäftigen. Ein Problem, dass durch schlechte Synchronisation auftreten kann, ist der Liveness Hazards. Dieser entstehen, wenn beispielsweise Thread A darauf wartet, dass Thread B eine Ressource, aufhört zu locken, aber Thread B dies nie tut. Diese Art von Liveness Hazard nennt man livelock \cite[vgl.][5-6]{brian}.\\
+Ein Problem, dass durch schlechte Synchronisation auftreten kann, ist der Liveness Hazards. Dieser entstehen, wenn beispielsweise Thread A darauf wartet, dass Thread B eine Ressource, aufhört zu locken, aber Thread B dies nie tut. Diese Art von Liveness Hazard nennt man livelock \cite[vgl.][5-6]{brian}.\\
 
 %\begin{comment}
 \begin{lstlisting}[language=Java,frame=tb,caption={Deadlock \cite{fekete_teaching_nodate}}, label={lst:deadlock}, numbers=left, stepnumber=1, captionpos=b, tabsize=4]
