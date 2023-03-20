@@ -1,7 +1,5 @@
-Dieses Kapitel beschäftigt sich damit, wie man Programme auf Data Races überprüft.\\
+Dieses Kapitel beschäftigt sich damit, wie man Programme auf Data Races überprüft. Race Detection Programme zur Überprüfung von Thread Safety Problemen werden in der Literatur in zwei Kategorien unterteilt: Dynamische und Statische Race Detection.\\ 
 \\
-Race Detection Programme zur Überprüfung von Thread Safety Problemen werden in der Literatur in zwei Kategorien unterteilt: Dynamische und Statische Race Detection. 
-
 Statische Race Detection analysiert dabei den Quell-, beziehungsweise Byte Code des Programms, ohne es auszuführen. Die Dynamische Methode hingegen führt das Programm aus und analysiert dieses während der Laufzeit. Unterscheiden wird bei der Dynamischen Race Detection zwischen der Erkennung durch eine \acs{HB} Beziehung und den Lockset Algorithmus \cite[vgl.][4]{erickson_effective_nodate}. "Despite significant advances in static race detection, state-of the-art race detection tools are still predominantly dynamic" \cite[308]{naik_effective_nodate}.
 
 \section{Dynamische Race Detection durch die Happens Before Beziehung}
